@@ -21,7 +21,7 @@ export default function FooterCol({
       <div>
         {links.map((item, index) => (
           <p className="text-center" key={index}>
-              <a href={item.path} target="_blank" rel="noreferrer">
+              <a className ="footer-item" href={item.path} target="_blank" rel="noreferrer">
                 {item.title}
               </a>
             

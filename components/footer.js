@@ -14,7 +14,7 @@ export default function Footer(props) {
                 path: "mailto:jordantwells@gmail.com",
               },
               {
-                title: "2816081825",
+                title: "281-608-1825",
                 path: "tel:+12816081825",
               },
             ]}

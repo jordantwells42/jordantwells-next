@@ -338,9 +338,10 @@ ul {
 }
 
 
-a {
+.footer-item {
   text-decoration: none;
   margin-left: 0;
-  
+  text-decoration-style: none;
+  text-decoration-color: red;
 }
 
