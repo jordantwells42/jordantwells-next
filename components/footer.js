@@ -3,7 +3,7 @@ import FooterCol from "./footercol";
 
 export default function Footer(props) {
   return (
-    <div className="container justify-content-center">
+    <div className="container py-5 justify-content-center">
       <div className="row justify-content-center">
         <div className="col">
           <FooterCol
@@ -27,10 +27,6 @@ export default function Footer(props) {
               {
                 title: "LinkedIn",
                 path: "https://www.linkedin.com/in/jordantwells/",
-              },
-              {
-                title: "GitHub",
-                path: "https://github.com/jordantwells42",
               },
               {
                   title: "Medium",

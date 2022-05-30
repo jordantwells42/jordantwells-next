@@ -21,7 +21,7 @@ export default function Home() {
         <Clouds />
         <Section name="About Me">
           <div className="container">
-            <p className="">
+            <p>
               {" "}
               I am a curious, project-oriented kind of guy.
               <br></br>
