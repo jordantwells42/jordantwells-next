@@ -34,8 +34,8 @@
         "subtitle":"My personal portfolio website",
         "desc":"A website to host all of my projects and information. Made with Next.js and deployed on Vercel. I would describe it more but you can just check out parts of it right now! ",
         "images":["/JW1.webp", "/JW2.webp", "/JW3.webp"],
-        "link":"https://www.jordantwells.com",
-        "link_type": "The site you're on!",
+        "link":"https://medium.com/@jordantwells/how-i-created-a-responsive-personal-portfolio-website-with-next-js-c516cd61e4ec?sk=cf2c3950de9dd3e47970322262c18f2a",
+        "link_type": "Medium Blog Post",
         "github_link":"https://github.com/jordantwells42/jordantwells-next",
         "skills":["Next.js", "Web Dev", "JavaScript"]
     }
