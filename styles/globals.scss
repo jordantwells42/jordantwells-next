@@ -110,6 +110,10 @@ transform: translate3d(0,0,0) !important;
   opacity: 1;
 }
 
+.content:active .content-overlay {
+  opacity: 1;
+}
+
 .image-container {
   display: flex;
   justify-content: center;
