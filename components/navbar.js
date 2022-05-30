@@ -31,7 +31,7 @@ function MainNavbar(props) {
 
   return (
     <div>
-     <Navbar scrolling dark expand="md" fixed="top">
+      <Navbar scrolling dark expand="md" fixed="top">
         <NavbarToggler onClick={(e) => changeToggle(e)} />
         <Collapse navbar isOpen={toggle}>
           <Nav className="me-auto" navbar>

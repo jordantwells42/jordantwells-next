@@ -26,8 +26,8 @@ export default function Home() {
               I am a curious, project-oriented kind of guy.
               <br></br>
               <br></br>
-              <br></br>I am currently pursuing a Bachelor&apos;s degree in Chemical
-              Engineering at the University of Texas at Austin, and
+              <br></br>I am currently pursuing a Bachelor&apos;s degree in
+              Chemical Engineering at the University of Texas at Austin, and
               supplementing that with a certificate in Elements of Computing. My
               major areas of focus have been on computational biology,
               biotechnology, and computer science.
