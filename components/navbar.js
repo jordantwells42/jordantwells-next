@@ -54,7 +54,7 @@ function MainNavbar(props) {
                   LinkedIn
                 </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem href="">Resume</DropdownItem>
+                <DropdownItem href="/jtw_resume.pdf">Resume</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
