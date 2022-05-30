@@ -21,13 +21,13 @@ export default function Carousel(props) {
     <div className="carousel slide" data-ride="carousel">
       <ol className="carousel-indicators">
         {props.images.map((image, idx) => (
-          <li className={idx === activeIdx ? "active" : ""}></li>
+          <li key = {idx} className={idx === activeIdx ? "active" : ""}></li>
         ))}
       </ol>
       <div className="carousel-inner">
         {props.images.map((image, idx) => (
           <div
-            className={"carousel-item " + (idx === activeIdx ? "active" : "")}
+            key = {idx} className={"carousel-item " + (idx === activeIdx ? "active" : "")}
           >
             <Image
               src={image}

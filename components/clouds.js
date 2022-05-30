@@ -80,11 +80,12 @@ export default function Clouds() {
 
   return (
     <div className="cloud-container container-fluid justify-content-center align-items-center ">
-      <h2 className="text-center fix-blur name-intro">Hey! I'm</h2>
+      <h2 className="text-center fix-blur name-intro">Hey! I&apos;m</h2>
       <h1 className="text-center fix-blue name">Jordan Wells</h1>
       {clusters.map((cluster) =>
         cluster.top.map((e, idx) => (
           <Cloud
+            key={idx}
             size={clusterSize[idx]}
             displacement={5}
             paddingTop={cluster.top[idx]}
