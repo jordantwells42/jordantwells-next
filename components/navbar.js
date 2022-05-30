@@ -36,37 +36,46 @@ function MainNavbar(props) {
         <Collapse navbar isOpen={toggle}>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/#Home">
-                <div className="nav-item">Home</div>
+              <NavLink className="nav-item" href="/#Home">
+                Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#Projects">
-                <div className="nav-item">Projects</div>
+              <NavLink className="nav-item" href="/#Projects">
+                Projects
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/jordantwells42">
-                <div className="nav-item">Github</div>
+              <NavLink
+                className="nav-item"
+                href="https://github.com/jordantwells42"
+              >
+                GitHub
               </NavLink>
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
-              <DropdownToggle caret nav>
+              <DropdownToggle className="nav-item" caret nav>
                 About
               </DropdownToggle>
               <DropdownMenu end>
-                <DropdownItem href="/#About Me">
-                  <div className="nav-item-dark">About Me</div>
+                <DropdownItem className="nav-item-dark" href="/#About Me">
+                  About Me
                 </DropdownItem>
-                <DropdownItem href="https://www.linkedin.com/in/jordantwells/">
-                  <div className="nav-item-dark">LinkedIn</div>
+                <DropdownItem
+                  className="nav-item-dark"
+                  href="https://www.linkedin.com/in/jordantwells/"
+                >
+                  LinkedIn
                 </DropdownItem>
-                <DropdownItem href="https://medium.com/@jordantwells">
-                  <div className="nav-item-dark">Medium Blog</div>
+                <DropdownItem
+                  className="nav-item-dark"
+                  href="https://medium.com/@jordantwells"
+                >
+                  Medium Blog
                 </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem href="/jtw_resume.pdf">
-                  <div className="nav-item-dark">Resume</div>
+                <DropdownItem className="nav-item-dark" href="/jtw_resume.pdf">
+                  Resume
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
