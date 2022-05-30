@@ -36,25 +36,38 @@ function MainNavbar(props) {
         <Collapse navbar isOpen={toggle}>
           <Nav className="me-auto" navbar>
             <NavItem>
-              <NavLink href="/#Home">Home</NavLink>
+              <NavLink href="/#Home">
+                <div className="nav-item">Home</div>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#Projects">Projects</NavLink>
+              <NavLink href="/#Projects">
+                <div className="nav-item">Projects</div>
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/jordantwells42">GitHub</NavLink>
+              <NavLink href="https://github.com/jordantwells42">
+                <div className="nav-item">Github</div>
+              </NavLink>
             </NavItem>
             <UncontrolledDropdown inNavbar nav>
               <DropdownToggle caret nav>
                 About
               </DropdownToggle>
               <DropdownMenu end>
-                <DropdownItem href="/#About Me">About Me</DropdownItem>
+                <DropdownItem href="/#About Me">
+                  <div className="nav-item-dark">About Me</div>
+                </DropdownItem>
                 <DropdownItem href="https://www.linkedin.com/in/jordantwells/">
-                  LinkedIn
+                  <div className="nav-item-dark">LinkedIn</div>
+                </DropdownItem>
+                <DropdownItem href="https://medium.com/@jordantwells">
+                  <div className="nav-item-dark">Medium Blog</div>
                 </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem href="/jtw_resume.pdf">Resume</DropdownItem>
+                <DropdownItem href="/jtw_resume.pdf">
+                  <div className="nav-item-dark">Resume</div>
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>

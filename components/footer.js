@@ -32,6 +32,10 @@ export default function Footer(props) {
                 title: "GitHub",
                 path: "https://github.com/jordantwells42",
               },
+              {
+                  title: "Medium",
+                  path: "https://medium.com/@jordantwells"
+              }
             ]}
           />
         </div>

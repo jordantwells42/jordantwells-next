@@ -23,7 +23,7 @@
         "title":"Protein Viewer",
         "subtitle":"An annotated protein crystal structure viewer",
         "desc":"I wanted to create a protein viewer to aid in my research work in the Ellington and Alper labs, and to help out the graduate students that I work with. Typically, generating visualizations of this type using PyMOL can take several minutes and needs to be done hundreds of times to generate designs, so this viewer expedites that process. Built using React and ngl molecular viewer, you can view any protein from the RCSB, explore different residues, and look at interactions between residues. ",
-        "images":["/PV2.webp", "/PV1.webp", "/PV3.webp"],
+        "images":["/PV1.webp", "/PV2.webp", "/PV3.webp"],
         "link":"https://protein-viewer-jtw.vercel.app/",
         "link_type": "Demo",
         "github_link":"https://github.com/jordantwells42/protein-viewer",
