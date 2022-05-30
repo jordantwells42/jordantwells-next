@@ -35,7 +35,7 @@ export default function Project({ project }) {
             <Card
               img={project.images[2]}
               title="Learn more"
-              subtitle={project.link_type + " Page"}
+              subtitle={project.link_type}
               link={project.link}
             />
           ) : (
@@ -65,6 +65,7 @@ export async function getStaticPaths() {
       { params: { title: "minimage" } },
       { params: { title: "NoteTab" } },
       { params: { title: "Protein Viewer" } },
+      { params: { title: "This Site" } },
     ],
     fallback: false, // false or 'blocking'
   };
