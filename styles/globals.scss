@@ -190,11 +190,11 @@ transform: translate3d(0,0,0) !important;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  -webkit-filter: grayscale(70%);
-  -moz-filter: grayscale(70%);
-  -o-filter: grayscale(70%);
-  -ms-filter: grayscale(70%);
-  filter: grayscale(70%);
+  -webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -o-filter: grayscale(80%);
+  -ms-filter: grayscale(80%);
+  filter: grayscale(80%);
 
   /* this is needed or the background will be offset by a few pixels at the top */
   overflow: auto;
