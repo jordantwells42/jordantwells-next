@@ -66,6 +66,7 @@ export async function getStaticPaths() {
       { params: { title: "NoteTab" } },
       { params: { title: "Protein Viewer" } },
       { params: { title: "This Site" } },
+      { params: { title: "Ray Marching" } },
     ],
     fallback: false, // false or 'blocking'
   };
