@@ -38,5 +38,15 @@
         "link_type": "Medium Blog Post",
         "github_link":"https://github.com/jordantwells42/jordantwells-next",
         "skills":["Next.js", "Web Dev", "JavaScript"]
+    },
+    {
+        "title":"Ray Marching",
+        "subtitle":"A GLSL shader experiment",
+        "desc":"Inspired by the incredible work of Inigo Quilez, I wanted to learn how to use shaders. I created this simple demo to practice signed-distance functions, ray marching, pixelation, and interactivity within a GLSL fragment shader.",
+        "images":["/RM1.webp", "/RM2.webp", "/RM1.webp"],
+        "link":"https://ray-marching-jtw.vercel.app/",
+        "link_type": "Demo Page",
+        "github_link":"https://github.com/jordantwells42/ray-marching",
+        "skills":["OpenGL Shaders", "GLSL", "Three.js"]
     }
 ]
