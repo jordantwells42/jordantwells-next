@@ -31,28 +31,15 @@ export default function Project({ project }) {
       <Divider />
       <div className="container py-5">
         <div className="row justify-content-center">
-          {project.link ? (
+          {project.links.map((link, idx) => (
             <Card
-              img={project.images[2]}
-              alt={project.alts[2]}
-              title="Learn more"
-              subtitle={project.link_type}
-              link={project.link}
+              img={project.images[(idx + 1) % project.images.length]}
+              alt={project.alts[(idx + 1) % project.images.length]}
+              title={link.title}
+              subtitle={link.subtitle}
+              link={link.link}
             />
-          ) : (
-            <></>
-          )}
-          {project.github_link ? (
-            <Card
-              img={project.images[1]}
-              alt={project.alts[1]}
-              title="How does it work?"
-              subtitle="Github Page"
-              link={project.github_link}
-            />
-          ) : (
-            <></>
-          )}
+          ))}
         </div>
       </div>
       <Divider />
