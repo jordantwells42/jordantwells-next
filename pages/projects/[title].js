@@ -34,6 +34,7 @@ export default function Project({ project }) {
           {project.link ? (
             <Card
               img={project.images[2]}
+              alt={project.alts[2]}
               title="Learn more"
               subtitle={project.link_type}
               link={project.link}
@@ -44,6 +45,7 @@ export default function Project({ project }) {
           {project.github_link ? (
             <Card
               img={project.images[1]}
+              alt={project.alts[1]}
               title="How does it work?"
               subtitle="Github Page"
               link={project.github_link}

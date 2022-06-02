@@ -41,6 +41,7 @@ export default function Home() {
               <ProjectCard
                 key={project.title}
                 img={project.images[0]}
+                alt={project.alts[0]}
                 title={project.title}
                 subtitle={project.subtitle}
                 language={project.skills.join(" | ")}
