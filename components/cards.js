@@ -12,7 +12,7 @@ export function Card(props) {
           <div className="image-container">
             <img
               layout="fill"
-              alt={props.title}
+              alt={props.alt}
               className="content-image"
               src={props.img}
             />
@@ -37,6 +37,7 @@ export function ProjectCard(props) {
       subtitle={props.subtitle}
       language={props.language}
       img={props.img}
+      alt={props.alt}
       link={"/projects/" + props.title}
     />
   );
