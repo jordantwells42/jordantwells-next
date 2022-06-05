@@ -35,6 +35,7 @@ export default function Project({ project }) {
             <Card
               img={project.images[(idx + 1) % project.images.length]}
               alt={project.alts[(idx + 1) % project.images.length]}
+              key={link.title}
               title={link.title}
               subtitle={link.subtitle}
               link={link.link}
