@@ -151,5 +151,37 @@
             "GLSL",
             "Three.js"
         ]
+    },
+    {
+        "title": "PalArt",
+        "subtitle": "A painting practice prompter",
+        "desc": "I wanted to create a tool to help me practice painting. PalArt is a simple web application that helps you create a palette and idea of what you would like to paint. ",
+        "images": [
+            "/PA1.webp",
+            "/PA2.webp",
+            "/PA3.webp"
+        ],
+        "alts": [
+            "The PalArt demo",
+            "The PalArt demo with a palette",
+            "The PalArt demo with a palette and a painting idea"
+        ],
+        "links": [
+            {
+                "title": "Try it Yourself",
+                "subtitle": "Demo Page",
+                "link": "https://pal-art.vercel.app/"
+            },
+            {
+                "title": "Learn More",
+                "subtitle": "GitHub Repo",
+                "link": "https://github.com/jordantwells42/PalArt"
+            }
+        ],
+        "skills": [
+            "Async JavaScript",
+            "Tailwind CSS",
+            "Next.js"
+        ]
     }
 ]
