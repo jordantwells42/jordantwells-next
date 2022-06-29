@@ -195,6 +195,8 @@ transform: translate3d(0,0,0) !important;
   -o-filter: grayscale(80%);
   -ms-filter: grayscale(80%);
   filter: grayscale(80%);
+  filter: contrast(50%);
+  background-blend-mode: darken;
 
   /* this is needed or the background will be offset by a few pixels at the top */
   overflow: auto;

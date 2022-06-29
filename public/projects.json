@@ -1,4 +1,68 @@
-[
+[   
+    {
+        "title": "They're a 10 but...",
+        "subtitle": "A web app based off the viral TikTok Trend",
+        "desc": "I wanted to practice full stack development using a database, so I created a game based off a TikTok trend. It uses Prisma, tRPC, and PlanetScale to store user ratings and average them into a final results page. ",
+        "images": [
+            "/TB1.webp",
+            "/TB2.webp",
+            "/TB3.webp"
+        ],
+        "alts": [
+            "They're a 10 but... demo",
+            "They're a 10 but... demo results",
+            "They're a 10 but... demo 2"
+        ],
+        "links": [
+            {
+                "title": "Try it Yourself",
+                "subtitle": "Demo Page",
+                "link": "https://tenbut.jordantwells.com/"
+            },
+            {
+                "title": "Learn More",
+                "subtitle": "GitHub Repo",
+                "link": "https://github.com/jordantwells42/tenbut"
+            }
+        ],
+        "skills": [
+            "Full Stack Development",
+            "Backend Development",
+            "APIs"
+        ]
+    },
+    {
+        "title": "PalArt",
+        "subtitle": "A painting practice prompter",
+        "desc": "I wanted to create a tool to help me practice painting. PalArt is a simple web application that helps you create a palette and idea of what you would like to paint. ",
+        "images": [
+            "/PA1.webp",
+            "/PA2.webp",
+            "/PA3.webp"
+        ],
+        "alts": [
+            "The PalArt demo",
+            "The PalArt demo with a palette",
+            "The PalArt demo with a palette and a painting idea"
+        ],
+        "links": [
+            {
+                "title": "Try it Yourself",
+                "subtitle": "Demo Page",
+                "link": "https://palart.jordantwells.com/"
+            },
+            {
+                "title": "Learn More",
+                "subtitle": "GitHub Repo",
+                "link": "https://github.com/jordantwells42/PalArt"
+            }
+        ],
+        "skills": [
+            "Async JavaScript",
+            "Tailwind CSS",
+            "Next.js"
+        ]
+    },
     {
         "title": "minimage",
         "subtitle": "Generates abstract art using a genetic algorithm",
@@ -24,38 +88,7 @@
             "Image Processing"
         ]
     },
-    {
-        "title": "NoteTab",
-        "subtitle": "A new tab chrome extension that lets you take notes",
-        "desc": "I wanted to create a place to easily jot down notes in a place that I will always seem them and be reminded of them. NoteTab overhauls the Chrome New Tab with my own custom page developed with HTML, CSS, and JS. This page has the ability to add sticky notes where you can take notes that are stored across browser sessions. You can also choose a selection of background images that are randomly chosen for each session.",
-        "images": [
-            "/NT1.webp",
-            "/NT2.webp",
-            "/NT3.webp"
-        ],
-        "alts": [
-            "The New Tab with several sticky notes",
-            "The New Tab with more sticky notes",
-            "The New Tab with few sticky notes"
-        ],
-        "links": [
-            {
-                "title": "Try it Yourself",
-                "subtitle": "Chrome Web Store Page",
-                "link": "https://chrome.google.com/webstore/detail/notetab/pbpbbpkaaakjiiafopoofnfohkhggajl"
-            },
-            {
-                "title": "Learn More",
-                "subtitle": "GitHub Repo",
-                "link": "https://github.com/jordantwells42/NoteTab"
-            }
-        ],
-        "skills": [
-            "Chrome Extension Dev",
-            "JavaScript",
-            "Event Loops"
-        ]
-    },
+    
     {
         "title": "Protein Viewer",
         "subtitle": "An annotated protein crystal structure viewer",
@@ -152,36 +185,37 @@
             "Three.js"
         ]
     },
+    
     {
-        "title": "PalArt",
-        "subtitle": "A painting practice prompter",
-        "desc": "I wanted to create a tool to help me practice painting. PalArt is a simple web application that helps you create a palette and idea of what you would like to paint. ",
+        "title": "NoteTab",
+        "subtitle": "A new tab chrome extension that lets you take notes",
+        "desc": "I wanted to create a place to easily jot down notes in a place that I will always seem them and be reminded of them. NoteTab overhauls the Chrome New Tab with my own custom page developed with HTML, CSS, and JS. This page has the ability to add sticky notes where you can take notes that are stored across browser sessions. You can also choose a selection of background images that are randomly chosen for each session.",
         "images": [
-            "/PA1.webp",
-            "/PA2.webp",
-            "/PA3.webp"
+            "/NT1.webp",
+            "/NT2.webp",
+            "/NT3.webp"
         ],
         "alts": [
-            "The PalArt demo",
-            "The PalArt demo with a palette",
-            "The PalArt demo with a palette and a painting idea"
+            "The New Tab with several sticky notes",
+            "The New Tab with more sticky notes",
+            "The New Tab with few sticky notes"
         ],
         "links": [
             {
                 "title": "Try it Yourself",
-                "subtitle": "Demo Page",
-                "link": "https://palart.jordantwells.com/"
+                "subtitle": "Chrome Web Store Page",
+                "link": "https://chrome.google.com/webstore/detail/notetab/pbpbbpkaaakjiiafopoofnfohkhggajl"
             },
             {
                 "title": "Learn More",
                 "subtitle": "GitHub Repo",
-                "link": "https://github.com/jordantwells42/PalArt"
+                "link": "https://github.com/jordantwells42/NoteTab"
             }
         ],
         "skills": [
-            "Async JavaScript",
-            "Tailwind CSS",
-            "Next.js"
+            "Chrome Extension Dev",
+            "JavaScript",
+            "Event Loops"
         ]
     }
 ]
