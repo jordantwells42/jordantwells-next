@@ -6,7 +6,9 @@ function Section(props) {
       <h1 id={props.name} className="text-4xl py-5">
         {props.name}
       </h1>
+      <div className="py-5">
       {props.children}
+      </div>
     </div>
   );
 }
