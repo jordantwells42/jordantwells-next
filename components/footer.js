@@ -43,7 +43,7 @@ export default function Footer() {
   return (
     <div className={toggleStyle.animate + " overflow-hidden pb-10 flex flex-col items-center justify-center"}>
       <div onMouseEnter={changeToggle} className={toggleStyle.translateyinv + " transition-transform ease-out duration-300 mt-10 flex flex-col justify-center items-center border-2 hover:cursor-pointer rounded-full bg-blue-400 w-10 h-10 z-50"}>
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-1/2 w-1/2 text-white text-center flex flex-row justify-center items-center" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-3/4 w-3/4 text-white text-center flex flex-row justify-center items-center" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
       </svg>
         </div>
