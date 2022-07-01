@@ -46,8 +46,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="transition-all ease-in-out duration-1000 rounded-full w-20 flex flex-col items-center justify-center fixed top-5 right-5 z-50">
-      <div onClick={changeToggle} className="flex flex-col border-2 hover:cursor-pointer  rounded-full bg-blue-400 w-10 h-10 z-50">
+    <div onMouseEnter={changeToggle} onMouseLeave={changeToggle} className="transition-all ease-in-out duration-1000 rounded-full w-20 flex flex-col items-center justify-center fixed top-5 right-5 z-50">
+      <div  className="flex flex-col border-2 hover:cursor-pointer  rounded-full bg-blue-400 w-10 h-10 z-50">
 
       </div>
 
