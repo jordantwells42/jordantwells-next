@@ -27,7 +27,7 @@ export default function Project({ project }) {
           content={"Jordan Wells' " + project.title + ". " + project.subtitle}
         />
         <meta property="og:title" content="Jordan Wells" key="title" />
-        <meta property="og:image" content={"https://ibb.co/swLJzV6"} />
+        <meta property="og:image" content={"https://i.ibb.co/zRKHD47/Screen-Shot-2022-07-01-at-3-18-55-PM.png"} />
         <meta property="og:url" content={"https://jordantwells.com/projects" + asPath } />
       </Head>
       <div className="bg-slate-900 w-full overflow-x-hidden flex flex-col items-center">
