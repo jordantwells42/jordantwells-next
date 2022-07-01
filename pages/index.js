@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Jordan Wells</title>
       </Head>
-      <div className="bg-slate-900 transition-all ease-in-out duration-500 w-full overflow-x-hidden flex flex-col items-center" id="Home">
+      <div className="bg-slate-900 w-full overflow-x-hidden flex flex-col items-center">
         <Navbar />
         <Landing />
         <AboutMe />
