@@ -12,6 +12,12 @@ export default function Home() {
     <>
       <Head>
         <title>Jordan Wells</title>
+         <meta
+          property="og:description"
+          content="A personal portfolio website for Jordan Wells"
+        />
+        <meta property="og:title" content="Jordan Wells" key="title" />
+        <meta property="og:image" content={"https://ibb.co/swLJzV6"} />
       </Head>
       <div className="bg-slate-900 w-full overflow-x-hidden flex flex-col items-center">
         <Navbar />
