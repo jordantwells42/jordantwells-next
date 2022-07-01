@@ -1,11 +1,10 @@
 import React from "react";
-import FooterCol from "./footercol";
 
 export default function Footer(props) {
   return (
     <div className="container py-5 justify-content-center">
       <div className="row justify-content-center">
-        <div className="col">
+        {/*<div className="col">
           <FooterCol
             heading="Contact Info"
             links={[
@@ -39,7 +38,7 @@ export default function Footer(props) {
       <div className="copyright">
         <div className="container justify-content-center">
           <p className="py-3 text-center">2022 - Jordan Wells - Built with Next.js</p>
-        </div>
+          </div>*/}
       </div>
     </div>
   );

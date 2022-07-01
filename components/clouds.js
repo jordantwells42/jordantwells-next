@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 
-import Cloud from "./cloud.js";
+import Cloud from "./Cloud.js";
 
 export default function Clouds() {
   let [basePaddingTop, setBasePaddingTop] = useState(-50);
@@ -79,9 +79,9 @@ export default function Clouds() {
   }, []);
 
   return (
-    <div className="cloud-container container-fluid justify-content-center align-items-center ">
-      <h2 className="text-center fix-blur name-intro">Hey! I&apos;m</h2>
-      <h1 className="text-center fix-blue name">Jordan Wells</h1>
+    <div className="bg-cyan-500 h-screen w-full items-center flex flex-col justify-center">
+      <h2 className="text-center text-7xl text-purple-200">Hey! I&apos;m</h2>
+      <h1 className="text-center text-8xl text-fuchsia-50">Jordan Wells</h1>
       {clusters.map((cluster) =>
         cluster.top.map((e, idx) => (
           <Cloud

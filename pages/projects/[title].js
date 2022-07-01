@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Head from "next/head";
-import MainNavbar from "../../components/navbar";
+import MainNavbar from "../../components/Navbar";
 import projectsJSON from "../../public/projects.json";
-import Divider from "../../components/divider";
-import { Card } from "../../components/cards";
-import Footer from "../../components/footer";
+import Divider from "../../components/Divider";
+import { Card } from "../../components/Cards";
+import Footer from "../../components/Footer";
 
 const projects = JSON.parse(JSON.stringify(projectsJSON));
 
