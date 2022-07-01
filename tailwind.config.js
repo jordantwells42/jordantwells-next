@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      screens: {
+        'hover-hover': {'raw': '(hover: hover)'},
+        'hover-none': {'raw': '(hover: none)'},
+  }
+}
+},
   plugins: [],
 }

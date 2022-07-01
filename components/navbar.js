@@ -1,89 +1,37 @@
 import React, { useState } from "react";
-import {
-  Navbar,
-  Collapse,
-  Nav,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarBrand,
-  NavbarText,
-  NavbarToggler,
-  NavItem,
-  NavLink,
-} from "reactstrap";
-
 import Link from "next/link";
 
-function MainNavbar(props) {
+
+
+
+
+export default function Navbar(props) {
   let [toggle, setToggle] = useState(false);
 
   const changeToggle = (e) => {
-    setToggle((prevToggle) => {
-      if (prevToggle) {
-        return false;
-      } else {
-        return true;
-      }
-    });
+    setToggle(p => !p);
   };
 
   return (
-    <div>
-      <Navbar dark expand="md" fixed="top">
-        <NavbarToggler onClick={(e) => changeToggle(e)} />
-        <Collapse navbar isOpen={toggle}>
-          <Nav className="me-auto" navbar>
-            <NavItem>
-              <NavLink className="nav-item" href="/#Home">
+    <div className="">
+      <div onClick={changeToggle} className="flex flex-col gap-2 fixed animate-pulse hover:animate-none top-5 right-5 rounded-full bg-blue-100 w-10 h-10 z-50">
+        {toggle &&
+
+          <div className="flex flex-col py-10">
+            <Link href="/">
+              <a>
                 Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="nav-item" href="/#Projects">
-                Projects
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                className="nav-item"
-                href="https://github.com/jordantwells42"
-              >
-                GitHub
-              </NavLink>
-            </NavItem>
-            <UncontrolledDropdown inNavbar nav>
-              <DropdownToggle className="nav-item" caret nav>
-                About
-              </DropdownToggle>
-              <DropdownMenu end>
-                <DropdownItem className="nav-item-dark" href="/#About Me">
-                  About Me
-                </DropdownItem>
-                <DropdownItem
-                  className="nav-item-dark"
-                  href="https://www.linkedin.com/in/jordantwells/"
-                >
-                  LinkedIn
-                </DropdownItem>
-                <DropdownItem
-                  className="nav-item-dark"
-                  href="https://medium.com/@jordantwells"
-                >
-                  Medium Blog
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem className="nav-item-dark" href="/jtw_resume.pdf">
-                  Resume
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-          </Nav>
-        </Collapse>
-      </Navbar>
+              </a>
+            </Link>
+            <Link href="/">
+              <a>
+                Home
+              </a>
+            </Link>
+
+          </div>
+        }
+      </div>
     </div>
   );
 }
-
-export default MainNavbar;
