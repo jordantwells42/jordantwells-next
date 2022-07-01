@@ -17,7 +17,8 @@ export default function Footer() {
   let [toggleStyle, setToggleStyle] = useState({
     marginy: "-mx-3",
     translatey: "translate-y-80",
-    translateyinv: "translate-y-0"
+    translateyinv: "translate-y-0",
+    animate: 'animate-bounce"
   })
 
   const changeToggle = (e) => {
@@ -26,19 +27,21 @@ export default function Footer() {
       setToggleStyle({
         marginy: "mx-2",
         translatey: "translate-y-0",
-        translateyinv: "translate-y-80"
+        translateyinv: "translate-y-80",
+        animate: ""
       })
     } else {
       setToggleStyle({
         marginy: "-mx-3",
         translatey: "translate-y-80",
-        translateyinv: "translate-y-0"
+        translateyinv: "translate-y-0",
+        animate: "animate-bounce"
       })
     }
   };
 
   return (
-    <div className="animate-bounce overflow-hidden pb-10 flex flex-col items-center justify-center">
+    <div className={toggleStyle.animate } + " overflow-hidden pb-10 flex flex-col items-center justify-center"}>
       <div onMouseEnter={changeToggle} className={toggleStyle.translateyinv + " transition-transform ease-out duration-200 mt-10 flex flex-col border-2 hover:cursor-pointer rounded-full bg-blue-400 w-10 h-10 z-50"}>
       </div>
       <div onMouseLeave={changeToggle} className={toggleStyle.translatey + " transition-transform ease-out duration-200 -mt-20 p-3 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40"}>
