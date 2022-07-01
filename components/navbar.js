@@ -47,7 +47,7 @@ export default function Navbar() {
 
   return (
     <div className="rounded-full w-20 flex flex-col items-center justify-center fixed top-5 right-5 z-50">
-      <div  onClick={changeToggle} className="flex flex-col items-center justify-center text-center border-2 hover:cursor-pointer  rounded-full bg-blue-400 w-10 h-10 z-50">
+      <div  onClick={changeToggle} className="flex flex-col items-center justify-center text-center border-2 hover:cursor-pointer  rounded-full bg-blue-400 w-14 h-14 z-50">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-3/4 w-3/4 text-white flex flex-row justify-center items-center" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
@@ -58,7 +58,7 @@ export default function Navbar() {
           {links.map(link => {
             return (
               <Link scroll={false} key={link.name} href={link.href}>
-                <a className={toggleStyle.marginy + " transition-all ease-out duration-100 bold text-center text-white hover:text-blue-300"}>{link.name}</a>
+                <a className={toggleStyle.marginy + " transition-all ease-out duration-100 bold text-lg text-center text-white hover:text-blue-300"}>{link.name}</a>
               </Link>
             )
           })}
