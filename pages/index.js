@@ -12,6 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>Jordan Wells</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
          <meta
           property="og:description"
           content="A personal portfolio website for Jordan Wells"

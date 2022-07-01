@@ -21,6 +21,7 @@ export default function Project({ project }) {
     <>
       <Head>
         <title>Jordan Wells - {project.title}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <meta name="description" content={"Jordan Wells' " + project.title + ". " + project.subtitle} />
                    <meta
           property="og:description"
