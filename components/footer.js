@@ -42,7 +42,7 @@ export default function Footer() {
       <div onMouseEnter={changeToggle} className={toggleStyle.translateyinv + " transition-transform ease-out duration-200 mt-10 flex flex-col border-2 hover:cursor-pointer rounded-full bg-blue-400 w-10 h-10 z-50"}>
 
       </div>
-      <div onMouseLeave={changeToggle} className={toggleStyle.translatey + " transition-transform ease-out duration-200 -mt-20 p-3 px-5 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40"}>
+      <div onMouseLeave={changeToggle} className={toggleStyle.translatey + " transition-transform ease-out duration-200 -mt-20 p-3 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40"}>
         
         <div className="flex flex-row items-center justify-center">
           <div className="flex flex-col items-center justify-center">
