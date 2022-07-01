@@ -46,9 +46,9 @@ export default function Navbar() {
   };
 
   return (
-    <div className="rounded-full hover-hover:h-20 hover-none:w-20 flex hover-hover:flex-row hover-none:flex-col items-center justify-center fixed top-5 right-5 z-50">
+    <div className="rounded-full hover-hover:h-20 hover-none:w-20 flex hover-hover:flex-row hover-none:flex-col-reverse items-center justify-center fixed top-5 right-5 z-50">
       
-      <div className={toggleStyle.translatey + " p-3 border-2 rounded-full bg-slate-800 flex flex-row z-40"}>
+      <div className={toggleStyle.translatey + " p-3 border-2 rounded-full bg-slate-800 flex hover-hover:flex-row hover-none:flex-col z-40"}>
           {links.map(link => {
             return (
               <Link scroll={false} key={link.name} href={link.href}>
