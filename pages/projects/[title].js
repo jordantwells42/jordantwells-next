@@ -10,6 +10,8 @@ import Navbar from "../../components/Navbar";
 
 const projects = JSON.parse(JSON.stringify(projectsJSON));
 
+
+
 export default function Project({ project }) {
   return (
     <>
