@@ -20,7 +20,7 @@ export function Card(props){
     <Link href={props.link}>
       <div className="flex flex-col border-2 m-3">
         <div className="group w-full h-80">
-        <img className="transition-all ease-in-out duration-200 hover-none:brightness-[0.4] hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full " src={props.img} alt={props.alt} />
+        <img className="transition-all ease-in-out duration-200 hover-none:brightness-[0.5] hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full " src={props.img} alt={props.alt} />
         <div className="transition-all ease-in-out duration-200 hover-none:opacity-100 hover-hover group-hover:cursor-pointer opacity-10 group-hover:opacity-100 -translate-y-full h-full w-full text-center flex flex-col items-center justify-center px-3">
           <h1 className="bold text-3xl">
             {props.title}
