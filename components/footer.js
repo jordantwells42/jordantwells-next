@@ -52,7 +52,7 @@ export default function Footer() {
                 return (
                   <Link key={contact.name} href={contact.href}>
                     <a>
-                      <h1 className={toggleStyle.marginy + " transition-spacing ease-out duration-s0 text-center text-white text-lg hover:text-blue-300"}>{contact.name}</h1>
+                      <h1 className={toggleStyle.marginy + " transition-spacing ease-out duration-0 text-center text-white text-lg hover:text-blue-300"}>{contact.name}</h1>
                       </a>
                   </Link>
                 )
