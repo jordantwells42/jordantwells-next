@@ -26,7 +26,7 @@ const links = [
 export default function Navbar() {
   let [toggle, setToggle] = useState(false);
   let [toggleStyle, setToggleStyle] = useState({
-    marginy: "-mx-3 hover-none:-my-3",
+    marginy: "hover-hover:-mx-3 hover-none:-my-3",
     translatey: "-translate-y-80"
   })
 
@@ -34,12 +34,12 @@ export default function Navbar() {
     setToggle(p => !p);
     if (!toggle){
       setToggleStyle({
-        marginy: "mx-5 hover-none:my-1",
+        marginy: "hover-hover:mx-5 hover-none:my-1",
         translatey: "translate-y-0"
       })
     } else {
       setToggleStyle({
-        marginy: "-mx-3 hover-none:-my-3",
+        marginy: "hover-hover:-mx-3 hover-none:-my-3",
         translatey: "-translate-y-80"
       })
     }
