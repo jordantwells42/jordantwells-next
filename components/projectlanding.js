@@ -4,7 +4,7 @@ export default function ProjectLanding(props){
         <div className="bg-slate-600 w-full flex flex-col justify-center items-center">
         <div className="h-screen w-full border-b-2 ">
             <img className="brightness-[0.2] object-cover w-full h-full " alt={props.title + " " + props.subtitle} src={props.src} />
-            <div className="-translate-y-3/4 h-full px-10 text-center">
+            <div className="-translate-y-2/3 h-full px-10 text-center">
             <h2 className="text-center text-6xl text-blue-400">{props.title}</h2>
             <h1 className="text-center text-xl text-white">{props.subtitle}</h1>
             
