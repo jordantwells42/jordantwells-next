@@ -1,3 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### JORDAN WELLS
 
-Located at www.jordantwells.com
+My personal portfolio website, designed with Next.js and Tailwind CSS
+
+[jordantwells.com](jordantwells.com)
