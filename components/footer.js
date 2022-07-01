@@ -18,7 +18,7 @@ export default function Footer() {
     marginy: "-mx-3",
     translatey: "translate-y-80",
     translateyinv: "translate-y-0",
-    animate: "animate-ping"
+    animate: "animate-pulse"
   })
 
   const changeToggle = (e) => {
@@ -35,7 +35,7 @@ export default function Footer() {
         marginy: "-mx-3",
         translatey: "translate-y-80",
         translateyinv: "translate-y-0",
-        animate: "animate-ping"
+        animate: "animate-pulse"
       })
     }
   };
