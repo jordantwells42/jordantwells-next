@@ -58,7 +58,7 @@ export default function Navbar() {
           {links.map(link => {
             return (
               <Link scroll={false} key={link.name} href={link.href}>
-                <a className={toggleStyle.marginy + " transition-all ease-out duration-700 bold text-center text-white hover:text-blue-300"}>{link.name}</a>
+                <a className={toggleStyle.marginy + " transition-all ease-out duration-300 bold text-center text-white hover:text-blue-300"}>{link.name}</a>
               </Link>
             )
           })}
