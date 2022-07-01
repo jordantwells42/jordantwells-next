@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useRouter } from 'next/router';
 import projectsJSON from "../../public/projects.json";
 import Divider from "../../components/divider.js";
 import { Card } from "../../components/cards.js";
@@ -7,16 +8,27 @@ import ProjectLanding from "../../components/projectlanding.js";
 import Section from "../../components/section.js";
 import Navbar from "../../components/navbar.js";
 
+
 const projects = JSON.parse(JSON.stringify(projectsJSON));
 
 
 
 export default function Project({ project }) {
+  
+  const { asPath } = useRouter
+  
   return (
     <>
       <Head>
         <title>Jordan Wells - {project.title}</title>
-        <meta name="description" content={project.title + ". " + project.subtitle} />
+        <meta name="description" content={"Jordan Wells' " + project.title + ". " + project.subtitle} />
+                   <meta
+          property="og:description"
+          content={"Jordan Wells' " + project.title + ". " + project.subtitle}
+        />
+        <meta property="og:title" content="Jordan Wells" key="title" />
+        <meta property="og:image" content={"https://ibb.co/swLJzV6"} />
+        <meta property="og:url" content={"https://jordantwells.com/projects" + asPath } />
       </Head>
       <div className="bg-slate-900 w-full overflow-x-hidden flex flex-col items-center">
         <Navbar />
