@@ -39,10 +39,10 @@ export default function Footer() {
 
   return (
     <div className="overflow-hidden pb-10 flex flex-col items-center justify-center">
-      <div onClick={changeToggle} className={toggleStyle.translateyinv + " mt-10 flex flex-col border-2 hover:cursor-pointer rounded-full bg-blue-400 w-10 h-10 z-50"}>
+      <div onMouseEnter={changeToggle} className={toggleStyle.translateyinv + " transition-transform ease-out duration-200 mt-10 flex flex-col border-2 hover:cursor-pointer rounded-full bg-blue-400 w-10 h-10 z-50"}>
 
       </div>
-      <div className={toggleStyle.translatey + " -mt-20 pt-3 px-3 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40"}>
+      <div onMouseLeave={changeToggle} className={toggleStyle.translatey + " transition-transform ease-out duration-200 -mt-20 p-3 px-5 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40"}>
         
         <div className="flex flex-row items-center justify-center">
           <div className="flex flex-col items-center justify-center">
@@ -52,7 +52,7 @@ export default function Footer() {
                 return (
                   <Link key={contact.name} href={contact.href}>
                     <a>
-                      <h1 className={toggleStyle.marginy + " transition-all ease-out duration-800 text-center text-white text-lg hover:text-blue-600"}>{contact.name}</h1>
+                      <h1 className={toggleStyle.marginy + " transition-spacing ease-out duration-1000 text-center text-white text-lg hover:text-blue-300"}>{contact.name}</h1>
                       </a>
                   </Link>
                 )

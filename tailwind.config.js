@@ -14,7 +14,8 @@ module.exports = {
       transitionProperty: {
         ...defaultTheme.transitionProperty,
         width: "width",
-        height: "height"
+        height: "height",
+        spacing: 'margin, padding',
       }
 }
 },
