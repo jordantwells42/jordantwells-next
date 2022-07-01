@@ -26,7 +26,7 @@ const links = [
 export default function Navbar() {
   let [toggle, setToggle] = useState(false);
   let [toggleStyle, setToggleStyle] = useState({
-    marginy: "-mx-3",
+    marginy: "-mx-3 hover-none:-my-3",
     translatey: "-translate-y-80"
   })
 
@@ -34,19 +34,19 @@ export default function Navbar() {
     setToggle(p => !p);
     if (!toggle){
       setToggleStyle({
-        marginy: "mx-5",
+        marginy: "mx-5 hover-none:my-1",
         translatey: "translate-y-0"
       })
     } else {
       setToggleStyle({
-        marginy: "-mx-3",
+        marginy: "-mx-3 hover-none:-my-3",
         translatey: "-translate-y-80"
       })
     }
   };
 
   return (
-    <div className="rounded-full h-20 flex flex-row items-center justify-center fixed top-5 right-5 z-50">
+    <div className="rounded-full hover-hover:h-20 hover-none:w-20 flex hover-hover:flex-row hover-none:flex-col items-center justify-center fixed top-5 right-5 z-50">
       
       <div className={toggleStyle.translatey + " p-3 border-2 rounded-full bg-slate-800 flex flex-row z-40"}>
           {links.map(link => {
