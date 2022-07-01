@@ -1,12 +1,11 @@
-import Image from "next/image";
 import Head from "next/head";
 import projectsJSON from "../../public/projects.json";
-import Divider from "../../components/divider";
-import { Card } from "../../components/cards";
-import Footer from "../../components/footer";
-import ProjectLanding from "../../components/projectlanding";
-import Section from "../../components/section";
-import Navbar from "../../components/navbar";
+import Divider from "../../components/divider.js";
+import { Card } from "../../components/cards.js";
+import Footer from "../../components/footer.js";
+import ProjectLanding from "../../components/projectlanding.js";
+import Section from "../../components/section.js";
+import Navbar from "../../components/navbar.js";
 
 const projects = JSON.parse(JSON.stringify(projectsJSON));
 

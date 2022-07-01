@@ -1,10 +1,10 @@
 import Head from "next/head";
-import Footer from "../components/footer";
-import Divider from "../components/divider";
-import AboutMe from "../components/aboutme";
-import Projects from "../components/projects";
-import Landing from "../components/landing";
-import Navbar from "../components/navbar";
+import Footer from "../components/footer.js";
+import Divider from "../components/divider.js";
+import AboutMe from "../components/aboutme.js";
+import Projects from "../components/projects.js";
+import Landing from "../components/landing.js";
+import Navbar from "../components/navbar.js";
 
 
 export default function Home() {

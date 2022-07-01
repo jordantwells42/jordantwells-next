@@ -1,6 +1,6 @@
-import { ProjectCard } from "./cards"
+import { ProjectCard } from "./cards.js"
 import projectsJSON from "../public/projects.json";
-import Section from "./sections";
+import Section from "./section.js";
 
 
 let projects = JSON.parse(JSON.stringify(projectsJSON));
