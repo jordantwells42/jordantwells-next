@@ -1,33 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
-export function Card(props) {
-  return (
-    <Link href={props.link}>
-      <div className="py-3 col-lg-6">
-        <div className="content">
-          <div className="content-overlay"></div>
-          <div className="image-container">
-            <img
-              layout="fill"
-              alt={props.alt}
-              className="content-image"
-              src={props.img}
-            />
-          </div>
-
-          <div className="content-details fadeIn-bottom">
-            <h3 className="content-title">{props.title}</h3>
-            <p className="content-text">{props.subtitle}</p>
-            <p>{props.language}</p>
-          </div>
-        </div>
-      </div>
-    </Link>
-  );
-}
 
 
 export function ProjectCard(props) {
@@ -38,7 +13,32 @@ export function ProjectCard(props) {
       language={props.language}
       img={props.img}
       alt={props.alt}
-      link={"/projects/" + props.title}
-    />
+      link={"/projects/" + props.title}></Card>
+  );
+}
+
+
+export function Card(props){
+  return (
+    <Link href={props.link}>
+      <div className="flex flex-col" >
+        <div className="group w-full h-80 py-1">
+        <img className="transition-all ease-in-out duration-200 hover-none:brightness-[0.4] hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full " src={props.img} alt={props.alt} />
+        <div className="transition-all ease-in-out duration-200 hover-none:opacity-100 hover-hover group-hover:cursor-pointer opacity-10 group-hover:opacity-100 -translate-y-full h-full w-full text-center flex flex-col items-center justify-center px-3">
+          <h1 className="bold text-3xl">
+            {props.title}
+          </h1>
+          <h2 className="bold text-xl">
+            {props.subtitle}
+          </h2>
+          <h2 className="bold text-lg mt-10">
+            {props.language}
+          </h2>
+        </div>
+        </div>
+
+
+      </div>
+    </Link>
   );
 }

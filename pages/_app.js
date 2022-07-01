@@ -1,4 +1,4 @@
-import "../styles/globals.scss";
+import "../styles/globals.css";
 import "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 
