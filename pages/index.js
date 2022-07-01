@@ -16,6 +16,7 @@ export default function Home() {
           property="og:description"
           content="A personal portfolio website for Jordan Wells"
         />
+        <meta name="description" content="A personal portfolio website for Jordan Wells" />
         <meta property="og:title" content="Jordan Wells" key="title" />
         <meta property="og:image" content={"https://ibb.co/swLJzV6"} />
       </Head>
