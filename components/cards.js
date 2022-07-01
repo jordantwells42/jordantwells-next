@@ -25,7 +25,7 @@ export function Card(props){
           <h1 className="font-bold text-3xl">
             {props.title}
           </h1>
-          <h2 className="italic text-blue-500 text-xl">
+          <h2 className="italic text-blue-400 text-xl">
             {props.subtitle}
           </h2>
           <h2 className="bold text-lg mt-10">
