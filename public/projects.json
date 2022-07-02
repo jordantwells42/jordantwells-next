@@ -1,5 +1,37 @@
 [   
     {
+        "title": "Protein Viewer",
+        "subtitle": "An annotated protein crystal structure viewer",
+        "desc": "I wanted to create a protein viewer to aid in my research work in the Ellington and Alper labs, and to help out the graduate students that I work with. Typically, generating visualizations of this type using PyMOL can take several minutes and needs to be done hundreds of times to generate designs, so this viewer expedites that process. Built using React and ngl molecular viewer, you can view any protein from the RCSB, explore different residues, and look at interactions between residues. ",
+        "images": [
+            "/PV1.webp",
+            "/PV2.webp",
+            "/PV3.webp"
+        ],
+        "alts": [
+            "A full view of a protein crystal structure from the RCSB and UI",
+            "A close up view of a protein crystal structure residue residue interactions",
+            "A close up view of another protein crystal structure residue residue interactions"
+        ],
+        "links": [
+            {
+                "title": "Try it Yourself",
+                "subtitle": "Demo Page",
+                "link": "https://protein.jordantwells.com/"
+            },
+            {
+                "title": "Learn More",
+                "subtitle": "GitHub Repo",
+                "link": "https://github.com/jordantwells42/protein-viewer"
+            }
+        ],
+        "skills": [
+            "React",
+            "JavaScript",
+            "ngl/Three.js"
+        ]
+    },
+    {
         "title": "They're a 10 but...",
         "subtitle": "A web app based off the viral TikTok Trend",
         "desc": "I wanted to practice full stack development using a database, so I created a game based off a TikTok trend. It uses Prisma, tRPC, and PlanetScale to store user ratings and average them into a final results page. ",
@@ -29,6 +61,31 @@
             "Full Stack Development",
             "Backend Development",
             "APIs"
+        ]
+    },
+    {
+        "title": "minimage",
+        "subtitle": "Generates abstract art using a genetic algorithm",
+        "desc": "I wanted to create a way to generate minimalist, abstract art that you could see the progression of. Using Python, I created a genetic algorithm which takes an input image, and attempt to 'evolve' a copy of it using simple polygons. This is achieved by creating a population of images with random polygons with random colors, selecting the images with the best 'fitness' that most closely resemble the input image, and crossbreeding and mutating the resulting selected images for several generations.",
+        "images": [
+            "/pearl.webp",
+            "/turtle.webp"
+        ],
+        "alts": [
+            "An abstract version of Girl with a Pearl Earring by Vermeer",
+            "An abstract version of a turtle"
+        ],
+        "links": [
+            {
+                "title": "Learn More",
+                "subtitle": "GitHub Repo",
+                "link": "https://github.com/jordantwells42/minimage"
+            }
+        ],
+        "skills": [
+            "Genetic Algorithms",
+            "Python",
+            "Image Processing"
         ]
     },
     {
@@ -63,64 +120,7 @@
             "Next.js"
         ]
     },
-    {
-        "title": "minimage",
-        "subtitle": "Generates abstract art using a genetic algorithm",
-        "desc": "I wanted to create a way to generate minimalist, abstract art that you could see the progression of. Using Python, I created a genetic algorithm which takes an input image, and attempt to 'evolve' a copy of it using simple polygons. This is achieved by creating a population of images with random polygons with random colors, selecting the images with the best 'fitness' that most closely resemble the input image, and crossbreeding and mutating the resulting selected images for several generations.",
-        "images": [
-            "/pearl.webp",
-            "/turtle.webp"
-        ],
-        "alts": [
-            "An abstract version of Girl with a Pearl Earring by Vermeer",
-            "An abstract version of a turtle"
-        ],
-        "links": [
-            {
-                "title": "Learn More",
-                "subtitle": "GitHub Repo",
-                "link": "https://github.com/jordantwells42/minimage"
-            }
-        ],
-        "skills": [
-            "Genetic Algorithms",
-            "Python",
-            "Image Processing"
-        ]
-    },
     
-    {
-        "title": "Protein Viewer",
-        "subtitle": "An annotated protein crystal structure viewer",
-        "desc": "I wanted to create a protein viewer to aid in my research work in the Ellington and Alper labs, and to help out the graduate students that I work with. Typically, generating visualizations of this type using PyMOL can take several minutes and needs to be done hundreds of times to generate designs, so this viewer expedites that process. Built using React and ngl molecular viewer, you can view any protein from the RCSB, explore different residues, and look at interactions between residues. ",
-        "images": [
-            "/PV1.webp",
-            "/PV2.webp",
-            "/PV3.webp"
-        ],
-        "alts": [
-            "A full view of a protein crystal structure from the RCSB and UI",
-            "A close up view of a protein crystal structure residue residue interactions",
-            "A close up view of another protein crystal structure residue residue interactions"
-        ],
-        "links": [
-            {
-                "title": "Try it Yourself",
-                "subtitle": "Demo Page",
-                "link": "https://protein.jordantwells.com/"
-            },
-            {
-                "title": "Learn More",
-                "subtitle": "GitHub Repo",
-                "link": "https://github.com/jordantwells42/protein-viewer"
-            }
-        ],
-        "skills": [
-            "React",
-            "JavaScript",
-            "ngl/Three.js"
-        ]
-    },
     {
         "title": "This Site",
         "subtitle": "My personal portfolio website",
