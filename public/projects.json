@@ -48,24 +48,6 @@
     "skills": ["Full Stack Development", "Backend Development", "APIs"]
   },
   {
-    "title": "minimage",
-    "subtitle": "Generates abstract art using a genetic algorithm",
-    "desc": "I wanted to create a way to generate minimalist, abstract art that you could see the progression of. Using Python, I created a genetic algorithm which takes an input image, and attempt to 'evolve' a copy of it using simple polygons. This is achieved by creating a population of images with random polygons with random colors, selecting the images with the best 'fitness' that most closely resemble the input image, and crossbreeding and mutating the resulting selected images for several generations.",
-    "images": ["/pearl.webp", "/turtle.webp"],
-    "alts": [
-      "An abstract version of Girl with a Pearl Earring by Vermeer",
-      "An abstract version of a turtle"
-    ],
-    "links": [
-      {
-        "title": "Learn More",
-        "subtitle": "GitHub Repo",
-        "link": "https://github.com/jordantwells42/minimage"
-      }
-    ],
-    "skills": ["Genetic Algorithms", "Python", "Image Processing"]
-  },
-  {
     "title": "Tarot",
     "subtitle": "A Tarot card reading simulator",
     "desc": "I wanted to create a project using a card which was brought to life using the react-spring and use-gesture React libraries. I have always found Tarot interesting although I do not practice or subscribe to it myself, so I wanted to create a way for others to learn more about it.",
@@ -88,6 +70,24 @@
       }
     ],
     "skills": ["react-spring", "@use-gesture", "Next.js"]
+  },
+  {
+    "title": "minimage",
+    "subtitle": "Generates abstract art using a genetic algorithm",
+    "desc": "I wanted to create a way to generate minimalist, abstract art that you could see the progression of. Using Python, I created a genetic algorithm which takes an input image, and attempt to 'evolve' a copy of it using simple polygons. This is achieved by creating a population of images with random polygons with random colors, selecting the images with the best 'fitness' that most closely resemble the input image, and crossbreeding and mutating the resulting selected images for several generations.",
+    "images": ["/pearl.webp", "/turtle.webp"],
+    "alts": [
+      "An abstract version of Girl with a Pearl Earring by Vermeer",
+      "An abstract version of a turtle"
+    ],
+    "links": [
+      {
+        "title": "Learn More",
+        "subtitle": "GitHub Repo",
+        "link": "https://github.com/jordantwells42/minimage"
+      }
+    ],
+    "skills": ["Genetic Algorithms", "Python", "Image Processing"]
   },
   {
     "title": "PalArt",
