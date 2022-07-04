@@ -83,7 +83,8 @@ export async function getStaticPaths () {
       { params: { title: 'This Site' } },
       { params: { title: 'Ray Marching' } },
       { params: { title: 'PalArt' } },
-      { params: { title: "They're a 10 but..." } }
+      { params: { title: "They're a 10 but..." } },
+      { params: { title: "Tarot" } }
     ],
     fallback: false // false or 'blocking'
   }
