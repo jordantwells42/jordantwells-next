@@ -84,7 +84,8 @@ export async function getStaticPaths () {
       { params: { title: 'Ray Marching' } },
       { params: { title: 'PalArt' } },
       { params: { title: "They're a 10 but..." } },
-      { params: { title: "Tarot" } }
+      { params: { title: "Tarot" } },
+      { params: { title: 'HueWind' } },
     ],
     fallback: false // false or 'blocking'
   }

@@ -1,5 +1,29 @@
 [
   {
+    "title": "HueWind",
+    "subtitle": "A (Tailwind CSS) palette generator for the web",
+    "desc": "I have been obsessed with using Tailwind CSS to rapidly speed up my web development projects. Wanting to escape the default provided colors, I made a palette generator to help create cohesive color schemes.",
+    "images": ["/HW1.webp", "/HW2.webp", "/HW3.webp"],
+    "alts": [
+      "The landing page and main color selection",
+      "Complementary color selection",
+      "The generated color palette"
+    ],
+    "links": [
+      {
+        "title": "Try it Yourself",
+        "subtitle": "Demo Page",
+        "link": "https://huewind.jordantwells.com/"
+      },
+      {
+        "title": "Learn More",
+        "subtitle": "GitHub Repo",
+        "link": "https://github.com/jordantwells42/huewind"
+      }
+    ],
+    "skills": ["Next.js", "UI/UX Design", "Front End Development"]
+  },
+  {
     "title": "Protein Viewer",
     "subtitle": "An annotated protein crystal structure viewer",
     "desc": "I wanted to create a protein viewer to aid in my research work in the Ellington and Alper labs, and to help out the graduate students that I work with. Typically, generating visualizations of this type using PyMOL can take several minutes and needs to be done hundreds of times to generate designs, so this viewer expedites that process. Built using React and ngl molecular viewer, you can view any protein from the RCSB, explore different residues, and look at interactions between residues. ",
@@ -23,6 +47,7 @@
     ],
     "skills": ["React", "JavaScript", "ngl/Three.js"]
   },
+  
   {
     "title": "They're a 10 but...",
     "subtitle": "A web app based off the viral TikTok Trend",
