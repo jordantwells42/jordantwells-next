@@ -41,7 +41,7 @@ export default function Project ({ project }) {
           content={'https://jordantwells.com/projects' + asPath}
         />
       </Head>
-      <div className='bg-saltboxBlue-900 w-full overflow-x-hidden flex flex-col items-center'>
+      <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
         <ProjectLanding
           src={project.images[0]}

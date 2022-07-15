@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 export default function ProjectLanding (props) {
   return (
-    <div className='bg-saltboxBlue-600 w-full flex flex-col justify-center items-center'>
+    <div className='bg-slate-600 w-full flex flex-col justify-center items-center'>
       <div className='h-screen w-full border-b-2 '>
         <img
           className='brightness-[0.4] object-cover w-full h-full '

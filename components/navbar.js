@@ -48,7 +48,7 @@ export default function Navbar () {
         initial={{ opacity: 0}}
         animate={toggle? "open" : "closed"}
         variants={menuVariants}
-        className='p-3 border-2 rounded-full bg-saltboxBlue-800 flex lg:flex-row flex-col z-40'
+        className='p-3 border-2 rounded-full bg-slate-800 flex lg:flex-row flex-col z-40'
 
       >
         {links.map(link => {
