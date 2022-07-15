@@ -13,12 +13,12 @@ export default function ProjectLanding (props) {
         <div className='-translate-y-2/3 h-full px-10'>
           <div className='flex flex-col justify-center items-center'>
             <motion.h1
-        initial={{ x: 100 }}
-        animate={{ x: 0 }} className='text-center text-6xl font-bold text-white'>
+        initial={{ x: 100, opacity:0 }}
+        animate={{ x: 0, opacity:1 }} className='text-center text-6xl font-bold text-white'>
               {props.title}
             </motion.h1>
-            <motion.h2 initial={{ x: -100 }}
-        animate={{ x: 0 }} className='text-center text-2xl font-bold pt-2 italic text-blue-300'>
+            <motion.h2 initial={{ x: -100, opacity:0 }}
+        animate={{ x: 0, opacity:1 }} className='text-center text-2xl font-bold pt-2 italic text-blue-300'>
               {props.subtitle}
             </motion.h2>
 

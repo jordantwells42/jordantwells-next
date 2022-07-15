@@ -20,9 +20,9 @@ export function Card (props) {
   return (
     <Link href={props.link}>
       <motion.div
-        initial={{x:-100}}
-        whileInView={{x:0}}
-        whileHover={{scale:1.1}}
+        initial={{x:-10, opacity:0}}
+        whileInView={{x:0,opacity:1}}
+        whileHover={{scale:1.05}}
         className='flex flex-col rounded border-2 my-3'>
         <div className='group w-full h-80'>
           <img
