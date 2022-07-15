@@ -73,7 +73,7 @@ export default function Footer () {
         onMouseLeave={changeToggle}
         className={
           toggleStyle.translatey +
-          ' transition-transform ease-in-out duration-300 -mt-20 p-3 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40'
+          ' transition-transform ease-in-out duration-300 -mt-20 p-3 border-2 rounded-full bg-saltboxBlue-800 flex flex-col items-center z-40'
         }
       >
         <div className='flex flex-col items-center justify-center'>

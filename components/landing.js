@@ -1,12 +1,22 @@
+import { motion } from 'framer-motion'
+
 export default function Landing () {
   return (
     <div className='bg-stone-900 h-screen w-full items-center border-b-2 flex flex-col justify-center'>
-      <h2 className='text-center text-7xl font-bold italic text-blue-300'>
+      <motion.h2
+        initial={{ x: -100 }}
+        animate={{ x: 0 }}
+        className='text-center text-7xl font-bold italic text-blue-300'
+      >
         Hey! I&apos;m
-      </h2>
-      <h1 className='text-center text-8xl font-bold text-white'>
+      </motion.h2>
+      <motion.h1
+        initial={{ x: 100 }}
+        animate={{ x: 0 }}
+        className='text-center text-8xl font-bold text-white'
+      >
         Jordan Wells
-      </h1>
+      </motion.h1>
       <svg
         xmlns='http://www.w3.org/2000/svg'
         className='animate-bounce sticky mt-10 bottom-0 h-10 w-10 text-white z-50'

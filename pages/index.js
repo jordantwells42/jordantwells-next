@@ -32,7 +32,7 @@ export default function Home () {
         />
         <meta property='og:url' content={'https://jordantwells.com'} />
       </Head>
-      <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
+      <div className='bg-saltboxBlue-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
         <Landing />
         <AboutMe />
