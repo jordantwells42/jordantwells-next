@@ -49,7 +49,7 @@ export default function Project ({ project }) {
           subtitle={project.subtitle}
         />
         <Section name='Description'>
-          <div className=''>
+          <div className='text-left'>
             <p>{project.desc}</p>
           </div>
         </Section>

@@ -28,8 +28,8 @@ const links = [
 export default function Navbar () {
   let [toggle, setToggle] = useState(false)
   const menuVariants ={
-    open: { opacity: 1, y: "0%" },
-    closed: { opacity: 0, y: "-10%" },
+    open: { opacity: 1, y: "0%", marginX: "100px" },
+    closed: { opacity: 0, y: "10%", marginX: "10px" },
   }
   const buttonVariants = {
     open: { rotate: 0 },
@@ -56,7 +56,7 @@ export default function Navbar () {
             <Link scroll={false} key={link.name} href={link.href}>
               <a
                 className=
-                  ' transition-all ease-out duration-100 bold text-lg text-center text-white hover:text-blue-300'
+                  'm-2 transition-all ease-out duration-100 bold text-lg text-center text-white hover:text-blue-300'
                 
               >
                 {link.name}
