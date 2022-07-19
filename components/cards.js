@@ -23,7 +23,7 @@ export function Card (props) {
         initial={{x:-10, opacity:0}}
         whileInView={{x:0,opacity:1}}
         whileHover={{scale:1.05}}
-        className='flex flex-col rounded border-2 my-3'>
+        className='flex flex-col rounded border-2 m-3'>
         <div className='group w-full h-80'>
           <img
             className='transition-all ease-in-out duration-200 hover-none:brightness-50 hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full '

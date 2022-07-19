@@ -8,7 +8,7 @@ let projects = JSON.parse(JSON.stringify(projectsJSON))
 export default function Projects () {
   return (
     <Section name='Projects'>
-      <div className='grid md:grid-cols-1 lg:grid-cols-2 md:gap-8 sm:gap-4 flex items-center justify-center'>
+      <div className='grid md:grid-cols-1 lg:grid-cols-2 md:gap-4 sm:gap-2 flex-wrap items-center justify-center'>
         {projects.map(project => (
           <ProjectCard
             key={project.title}
