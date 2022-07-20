@@ -17,8 +17,8 @@
     },
     {
       "title": "Learn More",
-      "subtitle": "GitHub Repo",
-      "link": "https://github.com/jordantwells42/vibesition"
+      "subtitle": "Medium Blog Post",
+      "link": "https://medium.com/p/498bb488c275"
     }
   ],
   "skills": ["RESTful APIs",  "Authentication (OAuth 2.0 / Next Auth)", "Async/Await/Promises"]
@@ -41,8 +41,8 @@
       },
       {
         "title": "Learn More",
-        "subtitle": "GitHub Repo",
-        "link": "https://github.com/jordantwells42/huewind"
+        "subtitle": "Medium Blog Post",
+        "link": "https://medium.com/me/stats/post/398da47846cc"
       }
     ],
     "skills": ["Next.js", "UI/UX Design", "Front End Development"]
