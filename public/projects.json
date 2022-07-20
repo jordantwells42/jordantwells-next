@@ -1,5 +1,29 @@
 [
   {
+  "title": "Vibesition",
+  "subtitle": "A Spotify playlist generator for the Vibes",
+  "desc": "I've always been interested in how an album or movie can seemlessly transition between one mood to the next by carefully selecting the right songs. This web app uses the Spotify API to interpolate between a song of one mood to a song of another mood, using Spotify's Audio Features. The user can select the two songs they want to transition between, and add the playlist to their personal spotify library.",
+  "images": ["/VB1.webp", "/VB2.webp", "/VB3.webp"],
+  "alts": [
+    "The results page of Vibesition",
+    "Choosing songs for vibesition",
+    "Choosing songs for vibesition"
+  ],
+  "links": [
+    {
+      "title": "Try it Yourself",
+      "subtitle": "Demo Page",
+      "link": "https://vibesition.jordantwells.com/"
+    },
+    {
+      "title": "Learn More",
+      "subtitle": "GitHub Repo",
+      "link": "https://github.com/jordantwells42/vibesition"
+    }
+  ],
+  "skills": ["RESTful APIs",  "Authentication (OAuth 2.0 / Next Auth)", "Async/Await/Promises"]
+},
+  {
     "title": "HueWind",
     "subtitle": "A (Tailwind CSS) palette generator for the web",
     "desc": "I have been obsessed with using Tailwind CSS to rapidly speed up my web development projects. Wanting to escape the default provided colors, I made a palette generator to help create cohesive color schemes.",
