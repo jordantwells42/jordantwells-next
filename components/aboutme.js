@@ -4,7 +4,7 @@ import Section from './section.js'
 export default function AboutMe () {
   return (
     <Section name='About Me'>
-      <div className='text-left max-w-prose'>
+      <div className='text-left max-w-prose leading-10'>
         <p>I am a curious, project-oriented kind of guy.</p>
         <br></br>
         <p>

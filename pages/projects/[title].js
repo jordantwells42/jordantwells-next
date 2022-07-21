@@ -49,7 +49,7 @@ export default function Project ({ project }) {
           subtitle={project.subtitle}
         />
         <Section name='Description'>
-          <div className='max-w-prose text-left'>
+          <div className='max-w-prose text-left leading-10'>
             <p>{project.desc}</p>
           </div>
         </Section>
