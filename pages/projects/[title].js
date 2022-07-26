@@ -33,9 +33,7 @@ export default function Project ({ project }) {
         <meta property='og:title' content='Jordan Wells' key='title' />
         <meta
           property='og:image'
-          content={
-            'https://i.ibb.co/zRKHD47/Screen-Shot-2022-07-01-at-3-18-55-PM.png'
-          }
+          content={project.images[0]}
         />
         <meta
           property='og:url'
@@ -45,24 +43,19 @@ export default function Project ({ project }) {
           rel='canonical'
           href={'https://jordantwells.com/projects' + asPath}
         />
-        <script type='application/ld+json'>{`
-{
-  "@context": "https://schema.org/",
-  "@type": "Person",
-  "name": "Jordan Wells",
-  "url": "https://jordantwells.com",
-  "image": "",
-  "sameAs": [
-    "https://www.linkedin.com/in/jordantwells/",
-    "https://github.com/jordantwells42"
-  ],
-  "jobTitle": "Student",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "University of Texas at Austin"
-  }  
-}
-`}</script>
+                <meta name='twitter:card' content='summary_large_image'></meta>
+        <meta name='twitter:site' content='@jordantwells42' />
+        <meta name='twitter:creator' content='@jordantwells42' />
+        <meta name='twitter:title' content={`Jordan Wells - ${project.title} | jordantwells.com`} />
+        <meta
+          name='twitter:description'
+          content={"Jordan Wells' " + project.title + '. ' + project.subtitle}
+        />
+        <meta
+          name='twitter:image'
+          content={project.images[0]}
+        />
+
       </Head>
       <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />

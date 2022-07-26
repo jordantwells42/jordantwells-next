@@ -7,7 +7,7 @@ export default function AboutMe () {
       <div className='w-full md:w-5/6 flex flex-col-reverse md:flex-row items-center justify-center gap-20'>
         <div className='text-left leading-10 max-w-prose'>
           
-          <p>I am a curious, project-oriented kind of guy.</p>
+          <p>I&apos;m Jordan Wells! I am a curious, project-oriented kind of guy.</p>
           <br></br>
           <p>
             I am currently pursuing a Bachelor&apos;s degree in Chemical

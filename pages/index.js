@@ -35,7 +35,39 @@ export default function Home () {
           }
         />
         <meta property='og:url' content={'https://jordantwells.com'} />
+        <meta name='twitter:card' content='summary_large_image'></meta>
+        <meta name='twitter:site' content='@jordantwells42' />
+        <meta name='twitter:creator' content='@jordantwells42' />
+        <meta name='twitter:title' content='Jordan Wells | jordantwells.com' />
+        <meta
+          name='twitter:description'
+          content="A personal portfolio website for Jordan Wells. 
+          Chemical Engineering Student at the University of Texas at Austin and avid programmer.
+        "
+        />
+        <meta
+          name='twitter:image'
+          content='/jordan.webp'
+        />
         <link rel="canonical" href={'https://jordantwells.com'} />
+        <script type='application/ld+json'>{`
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Jordan Wells",
+  "url": "https://jordantwells.com",
+  "image": "",
+  "sameAs": [
+    "https://www.linkedin.com/in/jordantwells/",
+    "https://github.com/jordantwells42"
+  ],
+  "jobTitle": "Student",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "University of Texas at Austin"
+  }  
+}
+`}</script>
       </Head>
       <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
