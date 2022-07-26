@@ -78,20 +78,20 @@ export default function Footer () {
         }
       >
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='text-white text-xl'>Contact:</h1>
+          <h2 className='text-white text-xl'>Contact:</h2>
           <div className='flex flex-row justify-between'>
             {contacts.map(contact => {
               return (
                 <Link key={contact.name} href={contact.href}>
                   <a>
-                    <h1
+                    <h3
                       className={
                         toggleStyle.marginy +
                         ' transition-spacing ease-in-out duration-500 text-center text-white text-lg hover:text-blue-300'
                       }
                     >
                       {contact.name}
-                    </h1>
+                    </h3>
                   </a>
                 </Link>
               )
