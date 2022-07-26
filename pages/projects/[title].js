@@ -17,7 +17,7 @@ export default function Project ({ project }) {
   return (
     <>
       <Head>
-        <title>Jordan Wells - {project.title}</title>
+        <title>Jordan Wells - {project.title} | jordantwells.com</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
@@ -41,6 +41,28 @@ export default function Project ({ project }) {
           property='og:url'
           content={'https://jordantwells.com/projects' + asPath}
         />
+        <link
+          rel='canonical'
+          href={'https://jordantwells.com/projects' + asPath}
+        />
+        <script type='application/ld+json'>{`
+{
+  "@context": "https://schema.org/",
+  "@type": "Person",
+  "name": "Jordan Wells",
+  "url": "https://jordantwells.com",
+  "image": "",
+  "sameAs": [
+    "https://www.linkedin.com/in/jordantwells/",
+    "https://github.com/jordantwells42"
+  ],
+  "jobTitle": "Student",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "University of Texas at Austin"
+  }  
+}
+`}</script>
       </Head>
       <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
@@ -70,7 +92,11 @@ export default function Project ({ project }) {
             ))}
           </div>
         </Section>
-        <Link href="/#Projects" ><a className="text-white text-xl hover:text-blue-300 pb-10">&lt; Back to Projects</a></Link>
+        <Link href='/#Projects'>
+          <a className='text-white text-xl hover:text-blue-300 pb-10'>
+            &lt; Back to Projects
+          </a>
+        </Link>
         <Footer />
       </div>
     </>
@@ -87,9 +113,9 @@ export async function getStaticPaths () {
       { params: { title: 'Ray Marching' } },
       { params: { title: 'PalArt' } },
       { params: { title: "They're a 10 but..." } },
-      { params: { title: "Tarot" } },
+      { params: { title: 'Tarot' } },
       { params: { title: 'HueWind' } },
-      { params: { title: 'Vibesition' } },
+      { params: { title: 'Vibesition' } }
     ],
     fallback: false // false or 'blocking'
   }

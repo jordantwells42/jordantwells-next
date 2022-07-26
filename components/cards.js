@@ -33,11 +33,11 @@ export function Card (props) {
             alt={props.alt}
           />
           <div className='transition-all ease-in-out duration-200 hover-none:opacity-100 hover-hover group-hover:cursor-pointer opacity-10 group-hover:opacity-100 -translate-y-full h-full w-full text-center flex flex-col items-center justify-center px-3'>
-            <h1 className='font-bold text-3xl'>{props.title}</h1>
-            <h2 className='italic font-bold text-blue-200 text-xl'>
+            <h2 className='font-bold text-3xl'>{props.title}</h2>
+            <h3 className='italic font-bold text-blue-200 text-xl'>
               {props.subtitle}
-            </h2>
-            <h2 className='font-bold text-lg mt-10'>{props.language}</h2>
+            </h3>
+            <h3 className='font-bold text-lg mt-10'>{props.language}</h3>
           </div>
         </div>
       </motion.div>

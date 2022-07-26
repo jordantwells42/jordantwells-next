@@ -10,7 +10,7 @@ export default function Home () {
   return (
     <>
       <Head>
-        <title>Jordan Wells</title>
+        <title>Jordan Wells | jordantwells.com</title>
         <meta
           name='viewport'
           content='width=device-width, initial-scale=1'
@@ -31,6 +31,7 @@ export default function Home () {
           }
         />
         <meta property='og:url' content={'https://jordantwells.com'} />
+        <link rel="canonical" href={'https://jordantwells.com'} />
       </Head>
       <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
