@@ -17,17 +17,31 @@ export default function Home () {
         ></meta>
         <meta
           property='og:description'
-          content='A personal portfolio website for Jordan Wells'
+          content="A personal portfolio website for Jordan Wells. 
+            I am a curious, project-oriented kind of guy.
+            I am currently pursuing a Bachelor's degree in Chemical
+            Engineering at the University of Texas at Austin, as well as a
+            certificate in Elements of Computing.
+            My interests have recently been in computational biology,
+            biotechnology, web development, and computer science.
+          "
         />
         <meta
           name='description'
-          content='A personal portfolio website for Jordan Wells'
+          content="A personal portfolio website for Jordan Wells. 
+            I am a curious, project-oriented kind of guy.
+            I am currently pursuing a Bachelor's degree in Chemical
+            Engineering at the University of Texas at Austin, as well as a
+            certificate in Elements of Computing.
+            My interests have recently been in computational biology,
+            biotechnology, web development, and computer science.
+          "
         />
-        <meta property='og:title' content='Jordan Wells' key='title' />
+        <meta property='og:title' content='Jordan Wells | jordantwells.com' key='title' />
         <meta
           property='og:image'
           content={
-            'https://i.ibb.co/zRKHD47/Screen-Shot-2022-07-01-at-3-18-55-PM.png'
+            '/jordan.webp'
           }
         />
         <meta property='og:url' content={'https://jordantwells.com'} />

@@ -24,11 +24,11 @@ export default function Project ({ project }) {
         ></meta>
         <meta
           name='description'
-          content={"Jordan Wells' " + project.title + '. ' + project.subtitle}
+          content={"Jordan Wells' " + project.title + '. ' + project.subtitle + ". " + project.description}
         />
         <meta
           property='og:description'
-          content={"Jordan Wells' " + project.title + '. ' + project.subtitle}
+          content={"Jordan Wells' " + project.title + '. ' + project.subtitle + ". " + project.description}
         />
         <meta property='og:title' content='Jordan Wells' key='title' />
         <meta
