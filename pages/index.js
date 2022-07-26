@@ -18,23 +18,13 @@ export default function Home () {
         <meta
           property='og:description'
           content="A personal portfolio website for Jordan Wells. 
-            I am a curious, project-oriented kind of guy.
-            I am currently pursuing a Bachelor's degree in Chemical
-            Engineering at the University of Texas at Austin, as well as a
-            certificate in Elements of Computing.
-            My interests have recently been in computational biology,
-            biotechnology, web development, and computer science.
+            Chemical Engineering Student at the University of Texas at Austin and avid programmer.
           "
         />
         <meta
           name='description'
           content="A personal portfolio website for Jordan Wells. 
-            I am a curious, project-oriented kind of guy.
-            I am currently pursuing a Bachelor's degree in Chemical
-            Engineering at the University of Texas at Austin, as well as a
-            certificate in Elements of Computing.
-            My interests have recently been in computational biology,
-            biotechnology, web development, and computer science.
+            Chemical Engineering Student at the University of Texas at Austin and avid programmer.
           "
         />
         <meta property='og:title' content='Jordan Wells | jordantwells.com' key='title' />
