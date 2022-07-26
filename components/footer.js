@@ -13,15 +13,16 @@ const contacts = [
 ]
 
 export default function Footer () {
-  let [toggle, setToggle] = useState(false)
+  let [toggle, setToggle] = useState(true)
   let [toggleStyle, setToggleStyle] = useState({
-    marginy: '-mx-3',
-    translatey: 'translate-y-80',
-    translateyinv: 'translate-y-0',
+    marginy: 'mx-2',
+    translatey: 'translate-y-0',
+    translateyinv: 'translate-y-80',
     animate: ''
   })
 
   const changeToggle = e => {
+    return
     setToggle(p => !p)
     if (!toggle) {
       setToggleStyle({
@@ -51,7 +52,7 @@ export default function Footer () {
         onMouseEnter={changeToggle}
         className={
           toggleStyle.translateyinv +
-          ' transition-transform ease-in-out duration-300 mt-10 flex flex-col justify-center items-center border-2 hover:cursor-pointer rounded-full bg-blue-400 w-14 h-14 z-50'
+          ' transition-transform ease-in-out duration-300 mt-10 flex flex-col justify-center items-center border-2 hover:cursor-pointer rounded-2xl bg-blue-400 w-14 h-14 z-50'
         }
       >
         <svg
@@ -73,7 +74,7 @@ export default function Footer () {
         onMouseLeave={changeToggle}
         className={
           toggleStyle.translatey +
-          ' transition-transform ease-in-out duration-300 -mt-20 p-3 border-2 rounded-full bg-slate-800 flex flex-col items-center z-40'
+          ' transition-transform ease-in-out duration-300 -mt-20 p-3 border-2 rounded-2xl bg-slate-800 flex flex-col items-center z-40'
         }
       >
         <div className='flex flex-col items-center justify-center'>

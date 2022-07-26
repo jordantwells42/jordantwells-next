@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import projectsJSON from '../../public/projects.json'
 import Divider from '../../components/divider.js'
@@ -58,6 +59,7 @@ export default function Project ({ project }) {
           <div className='grid w-full md:grid-cols-1 lg:grid-cols-2 md:gap-8 sm:gap-4 flex flex-row items-center justify-center'>
             {project.links.map((link, idx) => (
               <Card
+                newTab={true}
                 img={project.images[(idx + 1) % project.images.length]}
                 alt={project.alts[(idx + 1) % project.images.length]}
                 key={link.title}
@@ -68,6 +70,7 @@ export default function Project ({ project }) {
             ))}
           </div>
         </Section>
+        <Link href="/#Projects" ><a className="text-white text-xl hover:text-blue-300 pb-10">&lt; Back to Projects</a></Link>
         <Footer />
       </div>
     </>

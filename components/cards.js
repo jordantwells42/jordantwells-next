@@ -6,6 +6,7 @@ import { motion } from "framer-motion"
 export function ProjectCard (props) {
   return (
     <Card
+      newTab={props.newTab || false}
       title={props.title}
       subtitle={props.subtitle}
       language={props.language}
@@ -19,6 +20,7 @@ export function ProjectCard (props) {
 export function Card (props) {
   return (
     <Link href={props.link}>
+      <a rel="noopener noreferrer" target={props.newTab ? "_blank" : ""}>
       <motion.div
         initial={{x:-10, opacity:0}}
         whileInView={{x:0,opacity:1}}
@@ -39,6 +41,7 @@ export function Card (props) {
           </div>
         </div>
       </motion.div>
+      </a>
     </Link>
   )
 }
