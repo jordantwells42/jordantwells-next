@@ -4,7 +4,7 @@ import Section from './section.js'
 export default function AboutMe () {
   return (
     <Section name='About Me'>
-      <div className='w-full flex flex-col md:flex-row items-center justify-center gap-20'>
+      <div className='w-full md:w-5/6 flex flex-col md:flex-row items-center justify-center gap-20'>
         <div className='text-left leading-10 max-w-prose'>
           
           <p>I am a curious, project-oriented kind of guy.</p>

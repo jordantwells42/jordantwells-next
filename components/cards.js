@@ -20,7 +20,7 @@ export function ProjectCard (props) {
 export function Card (props) {
   return (
     <Link href={props.link}>
-      <a rel="noopener noreferrer" target={props.newTab ? "_blank" : ""}>
+      <a rel= {props.newTab ? "noopener noreferrer" : ""} target={props.newTab ? "_blank" : ""}>
       <motion.div
         initial={{x:-10, opacity:0}}
         whileInView={{x:0,opacity:1}}
