@@ -12,7 +12,7 @@ const links = [
     href: 'https://github.com/jordantwells42'
   },
   {
-    name: 'Medium',
+    name: 'Blog',
     href: 'https://medium.com/@jordantwells'
   },
   {
@@ -54,7 +54,7 @@ export default function Navbar () {
         {links.map(link => {
           return (
             <Link scroll={false} key={link.name} href={link.href}>
-              <a
+              <a rel= {link.href !== "/" ? "noopener noreferrer" : ""} target={link.href !== "/" ? "_blank" : "_self"}
                 className=
                   'm-2 transition-all ease-out duration-100 bold text-lg text-center text-white hover:text-blue-300'
                 
