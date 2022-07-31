@@ -32,7 +32,7 @@ const links = [
 export default function Navbar () {
   let [toggle, setToggle] = useState(false)
   const menuVariants ={
-    open: { opacity: 1, y: "0%", marginX: "100px", display:'block' },
+    open: { opacity: 1, y: "0%", marginX: "10px", display:'flex' },
     closed: { opacity: 0, y: "10%", marginX: "10px", display:'none' },
   }
   const buttonVariants = {
@@ -47,7 +47,7 @@ export default function Navbar () {
   }
 
   return (
-    <motion.div className='rounded-full lg:h-20 flex lg:flex-row flex-col-reverse items-center justify-center fixed top-5 right-5 z-50'>
+    <motion.div className='rounded-full w-20 lg:w-auto lg:h-20 flex lg:flex-row flex-col-reverse items-center justify-center fixed top-5 right-5 z-50'>
       <motion.div
         initial={{ opacity: 0}}
         animate={toggle? "open" : "closed"}
