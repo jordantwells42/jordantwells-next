@@ -5,7 +5,7 @@ import { DragControls, motion } from 'framer-motion'
 const links = [
   {
     name: 'Home',
-    href: '/'
+    href: '/#home'
   },
   {
     name: 'GitHub',
@@ -22,6 +22,10 @@ const links = [
   {
     name: 'Resume',
     href: '/jtw_resume.pdf'
+  },
+  {
+    name: 'Contact',
+    href: '/#contact'
   }
 ]
 
@@ -54,7 +58,7 @@ export default function Navbar () {
         {links.map(link => {
           return (
             <Link scroll={false} key={link.name} href={link.href}>
-              <a rel= {link.href !== "/" ? "noopener noreferrer" : ""} target={link.href !== "/" ? "_blank" : "_self"}
+              <a rel= {link.href[0] !== "/" ? "noopener noreferrer" : ""} target={link.href[0] !== "/" ? "_blank" : "_self"}
                 className=
                   'm-2 transition-all ease-out duration-100 bold text-lg text-center text-white hover:text-blue-300'
                 

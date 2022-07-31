@@ -69,7 +69,7 @@ export default function Home () {
 }
 `}</script>
       </Head>
-      <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
+      <div style={{scrollBehavior:'smooth'}} className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
         <Landing />
         <AboutMe />

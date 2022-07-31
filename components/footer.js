@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
+import * as Scroll from 'react-scroll'
+
+const ScrollLink = Scroll.Link
 
 const contacts = [
   {
@@ -43,6 +46,7 @@ export default function Footer () {
 
   return (
     <div
+      id='contact'
       className={
         toggleStyle.animate +
         ' overflow-hidden pb-10 flex flex-col items-center justify-center'
@@ -78,7 +82,7 @@ export default function Footer () {
         }
       >
         <div className='flex flex-col items-center justify-center'>
-          <h2 className='text-white text-xl'>Contact:</h2>
+          <h2 className='text-white text-xl font-light'>Contact Me:</h2>
           <div className='flex flex-row justify-between'>
             {contacts.map(contact => {
               return (
@@ -97,9 +101,19 @@ export default function Footer () {
               )
             })}
           </div>
-          <p className='text-white text-base'>Built with Next.js</p>
+          <p className='text-white font-light italic text-base pt-3'>
+            Built with Next.js, deployed with Vercel{' '}
+          </p>
+
         </div>
       </div>
+      <p className='text-white font-light text-base hover:cursor-pointer hover:text-stone-300 p-3'>
+            <ScrollLink to='home' spy={true} smooth={true} duration={500}>
+              
+              Back to Top
+            </ScrollLink>
+
+          </p>
     </div>
   )
 }
