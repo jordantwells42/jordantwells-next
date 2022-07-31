@@ -49,7 +49,7 @@ export default function Footer () {
       id='contact'
       className={
         toggleStyle.animate +
-        ' overflow-hidden pb-10 flex flex-col items-center justify-center'
+        ' overflow-hidden pb-5 flex flex-col items-center justify-center'
       }
     >
       <div
@@ -101,18 +101,19 @@ export default function Footer () {
               )
             })}
           </div>
-          <p className='text-white font-light italic text-base pt-3'>
-            Built with Next.js, deployed with Vercel{' '}
-          </p>
-
-        </div>
-      </div>
-      <p className='text-white font-light text-base hover:cursor-pointer hover:text-stone-300 p-3'>
+          <p className='text-white font-light text-base hover:cursor-pointer hover:text-stone-300 p-1'>
             <ScrollLink to='home' spy={true} smooth={true} duration={500}>
               
               Back to Top
             </ScrollLink>
 
+          </p>
+        
+
+        </div>
+      </div>
+      <p className='text-white font-light italic text-base pt-3'>
+            Built with Next.js, deployed with Vercel{' '}
           </p>
     </div>
   )
