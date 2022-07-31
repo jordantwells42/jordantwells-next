@@ -101,11 +101,11 @@ export default function Footer () {
               )
             })}
           </div>
-          <p className='text-white font-light text-base hover:cursor-pointer hover:text-stone-300 p-1'>
-            <ScrollLink to='home' spy={true} smooth={true} duration={500}>
+          <p className='text-white font-light text-base hover:cursor-pointer hover:text-blue-300 p-1'>
+            <a to='top' onClick={() => Scroll.animateScroll.scrollToTop()}>
               
               Back to Top
-            </ScrollLink>
+            </a>
 
           </p>
         

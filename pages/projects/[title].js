@@ -71,7 +71,7 @@ export default function Project ({ project }) {
         </Section>
         <Divider />
         <Section name='Learn More'>
-          <div className='grid w-full md:grid-cols-1 lg:grid-cols-2 md:gap-8 sm:gap-4 flex flex-row items-center justify-center'>
+          <div className='grid w-full md:grid-cols-1 lg:grid-cols-2 md:gap-8 sm:gap-4 flex flex-row items-center justify-center pb-20'>
             {project.links.map((link, idx) => (
               <Card
                 newTab={true}
@@ -86,7 +86,7 @@ export default function Project ({ project }) {
           </div>
         </Section>
         <Link href='/#Projects'>
-          <a className='text-white text-xl hover:text-blue-300 pb-10'>
+          <a className='text-white text-xl hover:text-blue-300 pb-10 italic'>
             &lt; Back to Projects
           </a>
         </Link>
