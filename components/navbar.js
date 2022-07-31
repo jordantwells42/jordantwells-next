@@ -32,8 +32,8 @@ const links = [
 export default function Navbar () {
   let [toggle, setToggle] = useState(false)
   const menuVariants ={
-    open: { opacity: 1, y: "0%", marginX: "100px" },
-    closed: { opacity: 0, y: "10%", marginX: "10px" },
+    open: { opacity: 1, y: "0%", marginX: "100px", display:'block' },
+    closed: { opacity: 0, y: "10%", marginX: "10px", display:'none' },
   }
   const buttonVariants = {
     open: { rotate: 0 },
