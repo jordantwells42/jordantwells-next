@@ -1,4 +1,27 @@
-[
+[{
+  "title": "Step2Beat",
+  "subtitle": "Run to your favorite artists using Spotify",
+  "desc": "Step2Beat is a web application that allows you to run to your favorite artists using Spotify. You can search for your favorite artists and create a treadmill workout with different intensities. It will then generate a playlist where each each song's BPM matches the speed you want to go at.",
+  "images": ["/SB2.webp", "/SB1.webp", "/SB3.webp"],
+  "alts": [
+    "The Step2Beat homepage",
+    "Choosing songs for Step2Beat",
+    "Login Page"
+  ],
+  "links": [
+    {
+      "title": "Try it Yourself",
+      "subtitle": "Demo Page",
+      "link": "https://step2beat.jordantwells.com/"
+    },
+    {
+      "title": "Learn More",
+      "subtitle": "Github Repo",
+      "link": "https://github.com/jordantwells42/step2beat"
+    }
+  ],
+  "skills": ["RESTful APIs",  "Authentication (OAuth 2.0 / Next Auth)", "Async/Await/Promises"]
+},
   {
   "title": "Vibesition",
   "subtitle": "A Spotify playlist generator for the Vibes",

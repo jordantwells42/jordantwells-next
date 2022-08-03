@@ -102,7 +102,7 @@ export default function Footer () {
             })}
           </div>
           <p className='text-white font-light text-base hover:cursor-pointer hover:text-blue-300 p-1'>
-            <a to='top' onClick={() => Scroll.animateScroll.scrollToTop()}>
+            <a  onClick={() => Scroll.animateScroll.scrollToTop()}>
               
               Back to Top
             </a>
