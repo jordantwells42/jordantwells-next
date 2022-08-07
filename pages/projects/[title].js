@@ -109,7 +109,8 @@ export async function getStaticPaths () {
       { params: { title: 'Tarot' } },
       { params: { title: 'HueWind' } },
       { params: { title: 'Vibesition' } },
-      { params: { title: 'Step2Beat' } }
+      { params: { title: 'Step2Beat' } },
+      { params: {title: "Where Should I Eat"}}
     ],
     fallback: false // false or 'blocking'
   }

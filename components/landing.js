@@ -5,6 +5,7 @@ import * as Scroll from 'react-scroll'
 const ScrollLink = Scroll.Link
 
 export default function Landing () {
+  // 50,100,200,300,400,500..,900
   return (
     <div
       id='home'

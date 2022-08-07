@@ -29,6 +29,9 @@ const links = [
   }
 ]
 
+
+
+
 export default function Navbar () {
   let [toggle, setToggle] = useState(false)
   const menuVariants ={
@@ -45,6 +48,7 @@ export default function Navbar () {
     console.log(toggle)
     setToggle(!toggle)
   }
+
 
   return (
     <motion.div className='rounded-full w-20 lg:w-auto lg:h-20 flex lg:flex-row flex-col-reverse items-center justify-center fixed top-5 right-5 z-50'>

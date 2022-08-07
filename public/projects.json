@@ -1,4 +1,28 @@
 [{
+  "title": "Where Should I Eat",
+  "subtitle": "Tinder, but for finding a restaurant",
+  "desc": "I made this app to settle the constant question of 'Where should I eat?'. Put in where you are and what you're craving, and I'll tell you where to eat. Made with the Yelp API, it takes a query location and a query food type and elegantly displays options on a map. I have a Tinder style card interaction that allows users to swipe left to ignore a restaurant and swipe right to get directions/more info about it!",
+  "images": ["/WE1.webp", "/WE2.webp", "/WE3.webp"],
+  "alts": [
+    "Where Should I Eat? Results Page",
+    "Where Should I Eat? Location Page",
+    "Where Should I Eat? Food Page"
+  ],
+  "links": [
+    {
+      "title": "Try it Yourself",
+      "subtitle": "Demo Page",
+      "link": "https://whereshouldieat.app/"
+    },
+    {
+      "title": "Learn More",
+      "subtitle": "Github Repo",
+      "link": "https://github.com/jordantwells42/whereshouldieat"
+    }
+  ],
+  "skills": ["RESTful APIs",  "Dynamic Maps / Map Tiling", "UI/UX Design"]
+},
+{
   "title": "Step2Beat",
   "subtitle": "Run to your favorite artists using Spotify",
   "desc": "Step2Beat is a web application that allows you to run to your favorite artists using Spotify. You can search for your favorite artists and create a treadmill workout with different intensities. It will then generate a playlist where each each song's BPM matches the speed you want to go at.",
