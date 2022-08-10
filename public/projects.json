@@ -16,8 +16,8 @@
     },
     {
       "title": "Learn More",
-      "subtitle": "Github Repo",
-      "link": "https://github.com/jordantwells42/whereshouldieat"
+      "subtitle": "Medium Post",
+      "link": "https://betterprogramming.pub/web-dev-tips-i-learned-from-building-the-tinder-of-finding-a-restaurant-974612e1c0a0"
     }
   ],
   "skills": ["RESTful APIs",  "Dynamic Maps / Map Tiling", "UI/UX Design"]

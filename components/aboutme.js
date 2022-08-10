@@ -20,7 +20,7 @@ export default function AboutMe () {
             biotechnology, web development, and computer science.
           </p>
         </div>
-          <img className="w-full md:w-1/3 aspect-square rounded-md border-white border-2" alt="Jordan Wells" src="/jordan.webp"/>
+          <img className="w-5/6 md:w-1/3 aspect-square rounded-md border-white border-2" alt="Jordan Wells" src="/jordan.webp"/>
       </div>
     </Section>
   )
