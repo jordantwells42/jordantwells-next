@@ -8,6 +8,7 @@ import Footer from '../../components/footer.js'
 import ProjectLanding from '../../components/projectlanding.js'
 import Section from '../../components/section.js'
 import Navbar from '../../components/navbar.js'
+import Script from 'next/script'
 
 const projects = JSON.parse(JSON.stringify(projectsJSON))
 
@@ -57,6 +58,14 @@ export default function Project ({ project }) {
         />
 
       </Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-KDWPV496DM"></Script>
+<Script id='google'>
+  {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KDWPV496DM');`}
+</Script>
       <div className='bg-slate-900 w-full overflow-x-hidden flex flex-col items-center'>
         <Navbar />
         <ProjectLanding
