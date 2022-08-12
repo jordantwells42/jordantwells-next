@@ -66,8 +66,8 @@ export default function Home () {
   }  
 }
 `}</Script>
-<Script async src="https://www.googletagmanager.com/gtag/js?id=G-KDWPV496DM"></Script>
-<Script id='google'>
+<Script strategy="afterInteractive" async src="https://www.googletagmanager.com/gtag/js?id=G-KDWPV496DM"></Script>
+<Script strategy="afterInteractive" id='google'>
   {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
