@@ -133,12 +133,12 @@
       {
         "title": "Try it Yourself",
         "subtitle": "Demo Page",
-        "link": "https://tenbut.jordantwells.com/"
+        "link": "https://10but.jordantwells.com/"
       },
       {
         "title": "Learn More",
         "subtitle": "GitHub Repo",
-        "link": "https://github.com/jordantwells42/tenbut"
+        "link": "https://github.com/jordantwells42/10but"
       }
     ],
     "skills": ["Full Stack Development", "Backend Development", "APIs"]
