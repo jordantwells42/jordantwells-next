@@ -95,6 +95,30 @@
     "skills": ["Next.js", "UI/UX Design", "Front End Development"]
   },
   {
+    "title": "They're a 10 but...",
+    "subtitle": "A web app based off the viral TikTok Trend",
+    "desc": "I wanted to practice full stack development using a database, so I created a game based off a TikTok trend. It uses Prisma, tRPC, and PlanetScale to store user ratings and average them into a final results page. ",
+    "images": ["/TB1.webp", "/TB2.webp", "/TB3.webp"],
+    "alts": [
+      "They're a 10 but... demo",
+      "They're a 10 but... demo results",
+      "They're a 10 but... demo 2"
+    ],
+    "links": [
+      {
+        "title": "Try it Yourself",
+        "subtitle": "Demo Page",
+        "link": "https://10but.jordantwells.com/"
+      },
+      {
+        "title": "Learn More",
+        "subtitle": "GitHub Repo",
+        "link": "https://github.com/jordantwells42/10but"
+      }
+    ],
+    "skills": ["Full Stack Development", "Backend Development", "Databases / Redis"]
+  },
+  {
     "title": "Protein Viewer",
     "subtitle": "An annotated protein crystal structure viewer",
     "desc": "I wanted to create a protein viewer to aid in my research work in the Ellington and Alper labs, and to help out the graduate students that I work with. Typically, generating visualizations of this type using PyMOL can take several minutes and needs to be done hundreds of times to generate designs, so this viewer expedites that process. Built using React and ngl molecular viewer, you can view any protein from the RCSB, explore different residues, and look at interactions between residues. ",
@@ -118,31 +142,7 @@
     ],
     "skills": ["React", "JavaScript", "ngl/Three.js"]
   },
-  
-  {
-    "title": "They're a 10 but...",
-    "subtitle": "A web app based off the viral TikTok Trend",
-    "desc": "I wanted to practice full stack development using a database, so I created a game based off a TikTok trend. It uses Prisma, tRPC, and PlanetScale to store user ratings and average them into a final results page. ",
-    "images": ["/TB1.webp", "/TB2.webp", "/TB3.webp"],
-    "alts": [
-      "They're a 10 but... demo",
-      "They're a 10 but... demo results",
-      "They're a 10 but... demo 2"
-    ],
-    "links": [
-      {
-        "title": "Try it Yourself",
-        "subtitle": "Demo Page",
-        "link": "https://10but.jordantwells.com/"
-      },
-      {
-        "title": "Learn More",
-        "subtitle": "GitHub Repo",
-        "link": "https://github.com/jordantwells42/10but"
-      }
-    ],
-    "skills": ["Full Stack Development", "Backend Development", "APIs"]
-  },
+
   {
     "title": "Tarot",
     "subtitle": "A Tarot card reading simulator",
