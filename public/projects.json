@@ -112,8 +112,8 @@
       },
       {
         "title": "Learn More",
-        "subtitle": "GitHub Repo",
-        "link": "https://github.com/jordantwells42/10but"
+        "subtitle": "Dev.to Post",
+        "link": "https://dev.to/jordantwells42/theyre-a-10-but-they-use-redis-as-their-primary-database-theyre-still-a-10-17op"
       }
     ],
     "skills": ["Full Stack Development", "Backend Development", "Databases / Redis"]
