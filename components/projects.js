@@ -8,7 +8,7 @@ let projects = JSON.parse(JSON.stringify(projectsJSON))
 export default function Projects () {
   return (
     <Section name='Projects'>
-      <div><h3 className='text-center text-xl text-stone-300 pb-5 italic'>click on an image to learn more</h3>
+      <div><h3 className='text-center text-xl text-stone-300 pb-5 italic'>Learn more by clicking an image</h3>
       <div className='grid grid-cols-1 lg:grid-cols-2 md:gap-4 sm:gap-2 flex-wrap items-center justify-center'>
         
         {projects.map(project => (
