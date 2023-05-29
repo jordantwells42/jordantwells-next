@@ -4,8 +4,8 @@ import Section from './section.js'
 export default function AboutMe () {
   return (
     <Section name='About Me'>
-      <div className='w-full md:w-5/6 flex flex-col-reverse md:flex-row items-center justify-center gap-20'>
-        <div className='text-left leading-10 max-w-prose'>
+      <div className='text-base w-5/6 md:w-5/6 flex flex-col-reverse md:flex-row items-center justify-center gap-10'>
+        <div className='text-left max-w-prose'>
           
           <p>I&apos;m Jordan Wells! I am a curious, project-oriented developer.</p>
           <br></br>
@@ -19,7 +19,7 @@ export default function AboutMe () {
             My interests are in software engineer, data science, computational biology, and machine learning.
           </p>
         </div>
-          <img className="w-5/6 md:w-1/3 aspect-square rounded-md border-white border-2" alt="Jordan Wells" src="/jordan.webp"/>
+          <img className="w-1/2 md:w-1/3 aspect-square rounded-md border-white border-2" alt="Jordan Wells" src="/jordan.webp"/>
       </div>
     </Section>
   )
