@@ -16,7 +16,7 @@ export default function AboutMe () {
           </p>
           <br></br>
           <p>
-            My interests are in software engineer, data science, computational biology, and machine learning.
+            My interests are in software engineering, data science, computational biology, and machine learning.
           </p>
         </div>
           <img className="w-1/2 md:w-1/3 aspect-square rounded-md border-white border-2" alt="Jordan Wells" src="/jordan.webp"/>
