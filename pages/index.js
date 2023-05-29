@@ -6,6 +6,7 @@ import AboutMe from '../components/aboutme.js'
 import Projects from '../components/projects.js'
 import Landing from '../components/landing.js'
 import Navbar from '../components/navbar.js'
+import Publications from '../components/publications.js'
 
 export default function Home () {
   return (
@@ -81,6 +82,8 @@ export default function Home () {
         <Navbar />
         <Landing />
         <AboutMe />
+        <Divider />
+        <Publications />
         <Divider />
         <Projects />
         <Footer />

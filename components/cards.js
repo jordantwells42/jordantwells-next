@@ -28,11 +28,11 @@ export function Card (props) {
         className='flex flex-col rounded border-2 m-3'>
         <div className='group w-full h-80'>
           <img
-            className='transition-all ease-in-out duration-200 hover-none:brightness-50 hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full '
+            className='transition-all ease-in-out duration-200 brightness-50 hover-hover:group-hover:brightness-[0.1]  object-cover w-full h-full '
             src={props.img}
             alt={props.alt}
           />
-          <div className='transition-all ease-in-out duration-200 hover-none:opacity-100 hover-hover group-hover:cursor-pointer opacity-50 group-hover:opacity-100 -translate-y-full h-full w-full text-center flex flex-col items-center justify-center px-3'>
+          <div className='transition-all ease-in-out duration-200  hover-hover group-hover:cursor-pointer opacity-90 group-hover:opacity-100 -translate-y-full h-full w-full text-center flex flex-col items-center justify-center px-3'>
             <h2 className='font-bold text-3xl'>{props.title}</h2>
             <h3 className='italic font-bold text-blue-200 text-xl'>
               {props.subtitle}
