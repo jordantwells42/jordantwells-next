@@ -110,12 +110,12 @@ export async function getStaticPaths() {
   return {
     paths: [
       { params: { title: "minimage" } },
-      { params: { title: "NoteTab" } },
+      // { params: { title: "NoteTab" } },
       { params: { title: "Protein Viewer" } },
-      { params: { title: "This Site" } },
+      // { params: { title: "This Site" } },
       { params: { title: "Ray Marching" } },
-      { params: { title: "PalArt" } },
-      { params: { title: "They're a 10 but..." } },
+      // { params: { title: "PalArt" } },
+      // { params: { title: "They're a 10 but..." } },
       { params: { title: "Tarot" } },
       { params: { title: "HueWind" } },
       { params: { title: "Vibesition" } },
