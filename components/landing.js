@@ -34,7 +34,7 @@ export default function Landing() {
       >
       
       <div className='w-full flex flex-col md:flex-row items-center justify-center gap-5'>
-      Want to chat? <Snippet className='text-white' variant="bordered" hideSymbol>jordantwells@gmail.com</Snippet>
+      Want to chat? <Snippet size="lg" className='text-white' variant="bordered" hideSymbol>jordantwells@gmail.com</Snippet>
       </div>
       </motion.h1>
     </div>
