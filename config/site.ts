@@ -45,7 +45,7 @@ export const siteConfig = {
   projects: [
     {
       title: "Where Should I Eat",
-      subtitle: "Tinder, but for finding a restaurant",
+      subtitle: "Match your cravings with restaurants in your area",
       desc: "I made this app to settle the constant question of 'Where should I eat?'. Put in where you are and what you're craving, and I'll tell you where to eat. Made with the Yelp API, it takes a query location and a query food type and elegantly displays options on a map. I have a Tinder style card interaction that allows users to swipe left to ignore a restaurant and swipe right to get directions/more info about it!",
       images: ["/images/WE1.webp", "/images/WE2.webp", "/images/WE3.webp"],
       alts: [
