@@ -95,7 +95,7 @@ export default function Project({ project }) {
           </Section>
           <Link
             href="/#Projects"
-            className="text-white text-xl hover:text-blue-300 pb-10 italic"
+            className="text-white text-xl hover:text-indigo-300 pb-10 italic text-center flex items-center justify-center w-full"
           >
             &lt; Back to Projects
           </Link>
