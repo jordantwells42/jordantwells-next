@@ -6,17 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
   },
   "dependencies": {
-    "framer-motion": "^6.5.1",
+    "@nextui-org/snippet": "^2.2.9",
+    "@nextui-org/system": "^2.4.5",
+    "@nextui-org/theme": "^2.4.4",
+    "framer-motion": "11.15.0",
+    "jordantwells-next": ".",
     "jqeury": "^0.0.1-security",
-    "next": "12.1.6",
+    "next": "^15.1.3",
+    "prettier": "^3.4.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^5.4.0",
     "react-scroll": "^1.8.7"
   },
   "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
     "autoprefixer": "^10.4.7",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",

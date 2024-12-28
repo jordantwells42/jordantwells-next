@@ -1,49 +1,79 @@
+const { nextui } = require("@nextui-org/theme");
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/components/(snippet|button|ripple|spinner|popover).js",
   ],
   theme: {
     extend: {
       screens: {
-        'hover-hover': {'raw': '(hover: hover)'},
-        'hover-none': {'raw': '(hover: none)'},
+        "hover-hover": { raw: "(hover: hover)" },
+        "hover-none": { raw: "(hover: none)" },
       },
       transitionProperty: {
         ...defaultTheme.transitionProperty,
         width: "width",
         height: "height",
-        spacing: 'margin, padding',
+        spacing: "margin, padding",
       },
       colors: {
-        saltboxBlue: {
-          50: "#dbdee6",
-          100: "#ced2dd",
-          200: "#b3bac9",
-          300: "#98a4b5",
-          400: "#7e8ca1",
-          500: "#63748c",
-          600: "#495b76",
-          700: "#314160",
-          800: "#1d2949",
-          900: "#0e1432",
+        theme: {
+          light: "#f2f2e6",
+          dark: "#07020a",
         },
-        indigoLight: {
-          50: "#dbdff1",
-          100: "#ccd4f1",
-          200: "#aebff0",
-          300: "#90aaec",
-          400: "#7294e2",
-          500: "#577bd1",
-          600: "#3f60b7",
-          700: "#2b4497",
-          800: "#1a2970",
-          900: "#0d1446",
-        }
-      }
-  }
-},
-  plugins: [],
-}
+        deepSpaceRoyal: {
+          50: "#e8c9dd",
+          100: "#deaed8",
+          200: "#b07dc9",
+          300: "#7156b4",
+          400: "#38399e",
+          500: "#233987",
+          600: "#16336f",
+          700: "#0e2657",
+          800: "#09173e",
+          900: "#050924",
+        },
+        noblePlum: {
+          50: "#e8cfc9",
+          100: "#deb0ae",
+          200: "#c97d8c",
+          300: "#b4567d",
+          400: "#9e3877",
+          500: "#872372",
+          600: "#6f1669",
+          700: "#540e57",
+          800: "#37093e",
+          900: "#1e0524",
+        },
+        yukonGold: {
+          50: "#e7e8c9",
+          100: "#dcdeae",
+          200: "#c9c87d",
+          300: "#b4ae56",
+          400: "#9e8e38",
+          500: "#876a23",
+          600: "#6f4516",
+          700: "#57250e",
+          800: "#3e0c09",
+          900: "#24050c",
+        },
+        gorgeousGreen: {
+          50: "#cde8c9",
+          100: "#aedeae",
+          200: "#7dc98b",
+          300: "#56b471",
+          400: "#389e57",
+          500: "#238738",
+          600: "#166f16",
+          700: "#26570e",
+          800: "#303e09",
+          900: "#241c05",
+        },
+      },
+    },
+  },
+  plugins: [nextui()],
+};
