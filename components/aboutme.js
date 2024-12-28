@@ -17,7 +17,7 @@ export default function AboutMe() {
           </p>
           <br></br>
           <p>
-            I&apos;m currently a Software Developer at D.E. Shaw Research.I
+            I&apos;m currently a Software Developer at D.E. Shaw Research, working on making computational tools for drug discovery. I
             graduated in May of 2023 from the University of Texas at Austin with
             a degree in Chemical Engineering, as well as a certificate in
             Elements of Computing.

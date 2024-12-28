@@ -25,7 +25,7 @@ const links = [
   },
   {
     name: "Contact",
-    href: "/#contact",
+    href: "mailto:jordantwells@gmail.com",
   },
 ];
 
